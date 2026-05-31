@@ -4,6 +4,8 @@
 
 **An independent, data-driven report on poverty as New Zealand's foundational challenge — the drivers, what works, and the highest-leverage path to solving it.**
 
+It spans **14 lived dimensions** of poverty (income, housing, food, energy, health and transport access, deprivation geography, environmental injustice, the "poverty premium", services, and more). Every one of the **62 skills** in the New Zealand open-data catalogue was triaged for relevance, and the directly-poverty-relevant sources were drawn on (see *"What this report drew on"* in the report). Each chapter was independently fact-checked, run through internal-consistency logic checks, and put through an editorial review pass.
+
 Produced by [thecolab.ai](https://thecolab.ai) · point-in-time as at 31 May 2026.
 
 📄 **[Read the report (PDF)](report/thecolab-poverty-baseline-challenge-nz.pdf)** — 48 pages.
