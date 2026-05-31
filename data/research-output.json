@@ -1883,5 +1883,101 @@
         }
       ]
     }
+  },
+  "hackathon": {
+    "intro": "A day of NZ's sharpest AI practitioners building shoulder-to-shoulder with government, on official open data and Claude, aimed squarely at the drivers of poverty. The brief is ruthless: pick the highest-leverage levers \u2014 income adequacy, housing costs, and accurate targeting \u2014 and ship working tools that an MSD case worker, a Treasury analyst, or the Child Poverty Unit could open the next morning. Every project below runs on confirmed-live NZ skills (no API keys for the open-data ones), produces an auditable artefact grounded in official measures, and is honestly scoped to one day.",
+    "recommendations": [
+      {
+        "title": "BenefitCheck \u2014 the after-housing-costs adequacy-gap calculator",
+        "build": "A single web page plus a Claude tool-use loop. A frontline case worker (or a household) enters household type, region, and weekly rent. Claude orchestrates run_skill calls to assemble a real after-housing-costs budget: live Accommodation Supplement levels and regional rent context (public-housing-nz), a live bare-staples food basket priced per store (paknsave-nz/grocer-nz), then benchmarks the household against the official AHC child-poverty lines and DEP-17 hardship indicators (child-poverty-nz, household-hardship-nz). It returns a structured income-vs-adequacy-gap breakdown, flags likely-unclaimed Accommodation Supplement headroom, and writes a plain-English summary plus a referral note.",
+        "data": "public-housing-nz (accommodation supplement, tenancies, local affordability/rent burden), child-poverty-nz (AHC lines, DEP-17), household-hardship-nz (income adequacy, rent burden), paknsave-nz + grocer-nz (live basic food basket). Claude for tool orchestration, structured-output JSON budget, and the summary/referral note.",
+        "deliverable": "Working web app: enter household + region + rent, get a live AHC budget, a single adequacy-gap figure, unclaimed-support flags, and an exportable Claude-written summary and referral note.",
+        "why_a_day": "One page, one Claude tool-use loop, and four skills that already return live JSON \u2014 no model training, no data wrangling beyond joining clean responses. The hard thinking (which official lines to use) is settled by the Child Poverty Reduction Act measures the skill already exposes.",
+        "govt_value": "MSD / Work and Income frontline triage and the DPMC Child Poverty Unit get a consistent, auditable adequacy tool grounded in official measures, and a direct nudge to lift Accommodation Supplement take-up \u2014 the report's #1 and #2 levers.",
+        "stack": "Next.js or FastAPI single page, Claude (tool use + structured output) via nz-skills MCP, deploy to Vercel/Fly."
+      },
+      {
+        "title": "Indexation Impact Simulator \u2014 model a benefit or IWTC change against the official poverty lines",
+        "build": "A scenario tool where a policy analyst sets a lever \u2014 restore wage-indexation (+X% to the main benefit), or extend the In-Work Tax Credit to children on a benefit \u2014 and the app recomputes household disposable income against the live AHC/BHC child-poverty thresholds and DEP-17 cut-offs. It works across household archetypes (sole parent, couple+2, single Jobseeker), using regional rent and Accommodation Supplement context and a live food-basket floor. Claude turns each scenario into a structured before/after table and a Cabinet-style plain-language impact note with caveats.",
+        "data": "child-poverty-nz (BHC/AHC lines, DEP-17), household-hardship-nz (income adequacy, rent burden), public-housing-nz (accommodation supplement, regional rent), paknsave-nz/grocer-nz (food-basket floor). Claude for scenario reasoning, structured before/after tables, and the impact note.",
+        "deliverable": "Working simulator: pick a lever and magnitude, get per-archetype before/after distance to the official poverty line, which archetypes escape, and an exportable Claude-written impact note.",
+        "why_a_day": "The poverty lines and archetype budgets are fixed inputs from the skills; the lever is simple arithmetic on disposable income. No microsimulation engine needed for a first-pass \u2014 Claude composes the narrative around a deterministic calculator core.",
+        "govt_value": "Treasury and MSD policy and the Child Poverty Unit get a fast, transparent first-pass on Budget options grounded in the Child Poverty Reduction Act measures \u2014 a sense-check before the heavyweight TAWA runs.",
+        "stack": "React calculator core + Claude (structured output + narrative) via nz-skills MCP; static deploy."
+      },
+      {
+        "title": "Adequacy Atlas \u2014 regional benefit-adequacy and hardship dashboard for targeting",
+        "build": "A map/dashboard that, for every NZ region, joins live Accommodation Supplement load and weekly spend (public-housing-nz), official child-poverty and material-hardship rates with M\u0101ori/Pacific/disability breakdowns (child-poverty-nz, household-hardship-nz), NZDep2023 deprivation deciles by small area (deprivation-nz), the social-housing register-change trend (public-housing-nz), and a live regional food-basket cost. Claude generates each region's structured adequacy profile and a ranked, source-cited brief on where an indexation rise or IRRS expansion would bite hardest.",
+        "data": "child-poverty-nz, household-hardship-nz, deprivation-nz (NZDep2023 by SA1/SA2/SA3), public-housing-nz (accommodation supplement, register change, affordability), grocer-nz/paknsave-nz (regional food cost), msd-benefits-nz (region/ethnicity distribution layer, noting its vintage). Claude for structured regional profiles, ranking, and the cited brief.",
+        "deliverable": "Deployed dashboard ranking regions by adequacy gap and hardship concentration, each with a downloadable Claude-written, source-cited one-page targeting brief.",
+        "why_a_day": "All inputs are keyless live JSON; the work is a clean join on region plus a Claude batch step. A static React dashboard over pre-fetched profiles avoids any backend complexity within the day.",
+        "govt_value": "Treasury, the DPMC Child Poverty Unit, and HUD get a same-day distributional and siting layer they currently assemble by hand \u2014 directly informing where IRRS and indexation spend lands.",
+        "stack": "React + a lightweight map (MapLibre), Claude batch step for profiles, static host."
+      },
+      {
+        "title": "Register Heat \u2014 social-housing waitlist and AS-spend triage dashboard",
+        "build": "A web dashboard plus a Claude analysis agent that calls public-housing-nz (change in housing register per 10k, accommodation-supplement recipients and weekly spend, IRRS and market-rent tenancies) for every Territorial Authority, joins each TA to its deprivation-nz decile profile, and produces a ranked pressure index per district. Claude turns the joined JSON into structured output (rank, register trend, AS spend per capita, deprivation skew) and writes a plain-English district brief explaining where register growth is outrunning supply and AS spend.",
+        "data": "public-housing-nz (local stats, accommodation supplement, tenancies), deprivation-nz (decile by SA2/SA3), household-hardship-nz (rent-burden context). Claude for the cross-skill join, ranking rationale, and per-district briefs.",
+        "deliverable": "Deployed dashboard plus downloadable JSON/CSV of the per-TA pressure index and one auto-written district brief per TA, every figure cited to HUD/NZDep source URLs.",
+        "why_a_day": "Highest feasibility of the housing set: all data is live and keyless, the join key (TA) is clean, and the output is a sortable table \u2014 strong devs ship the agent loop, table, and structured-output schema comfortably in a day.",
+        "govt_value": "HUD and MSD Housing get an evidence-ranked view of which districts need IRRS supply or AS uplift first, replacing manual spreadsheet joins and feeding register-reduction targets and Budget bid prioritisation.",
+        "stack": "React sortable table + choropleth, Claude agent (tool use + structured output), Fly/Vercel."
+      },
+      {
+        "title": "RentReach \u2014 live affordability-gap finder matching AS budgets to actual market rents",
+        "build": "A Claude tool-use agent that, for a chosen district, pulls live Trade Me rental listings (trademe-nz property rentals by region, bedrooms, price) and the AS recipient count plus weekly AS spend (public-housing-nz), then computes the gap between what AS-supported households can afford and what is actually listed. Claude classifies listings by bedroom/price band, counts how many fall within an AS-supported budget versus above it, and outputs a structured affordable-listings-available ratio per area plus a short narrative. Trade Me is treated as ToS-sensitive: low-volume, narrow queries, run as a local/stdio demo, cited as a live snapshot.",
+        "data": "trademe-nz (live property rentals), public-housing-nz (accommodation supplement recipients + weekly spend), homes-nz/household-hardship-nz (rent-burden benchmark). Claude for listing classification, gap computation, structured output, narrative.",
+        "deliverable": "Working district-level affordability-gap tool: a live count of in-budget vs out-of-budget listings, the affordable-shortfall ratio, and a one-page Claude-written summary per district with source snapshots.",
+        "why_a_day": "The two data sources are live and the computation is a banding-and-count over a single district's listings \u2014 narrow scope keeps Trade Me queries light and the build tractable within a day.",
+        "govt_value": "MSD/Work and Income and HUD see in near-real-time whether the Accommodation Supplement keeps pace with actual market rents \u2014 direct evidence for AS area-band reviews and for advising clients where stock genuinely exists.",
+        "stack": "FastAPI + Claude agent via stdio MCP (kept local for ToS), simple district-picker front end."
+      },
+      {
+        "title": "Cold-Register Equity Map \u2014 deprivation-weighted homelessness-risk briefs at SA2 level",
+        "build": "A pipeline plus agent that ranks small areas (SA2) by combined housing-stress risk: deprivation-nz decile, the TA-level register-change trend and AS spend (public-housing-nz), and child-poverty/hardship context for the region. Claude fuses these into a per-SA2 risk score with explicit, transparent weighting, flags the worst decile-9/10 areas where register pressure is rising, and auto-generates a structured equity brief (who is over-represented, which lever applies) for each flagged area.",
+        "data": "deprivation-nz (SA2/SA3 deciles), public-housing-nz (register change, accommodation supplement), child-poverty-nz (ethnicity/region breakdowns), household-hardship-nz (regional hardship). Claude for multi-source fusion, weighting rationale, and per-area equity briefs.",
+        "deliverable": "Deployed equity map plus a ranked SA2 risk table and one auto-written equity brief per flagged high-deprivation, rising-register area \u2014 every figure cited to NZDep2023/HUD/Stats NZ.",
+        "why_a_day": "The SA2-to-TA join and a transparent weighted score are both straightforward over keyless live data; Claude handles the brief generation, so the dev day is the join, the scoring function, and the map.",
+        "govt_value": "HUD, Te T\u016b\u0101papa Kura K\u0101inga, and regional MSD can direct emergency-housing and IRRS placement to the highest-deprivation areas where the register is growing, and evidence equity obligations (M\u0101ori/Pacific over-representation) in funding decisions.",
+        "stack": "Python pipeline + Claude brief generator, MapLibre front end, static host."
+      },
+      {
+        "title": "Nutritious Basket Tracker \u2014 a weekly food-poverty affordability dashboard",
+        "build": "An agent that constructs two reference baskets \u2014 a bare-staples basket and a nutritious-diet basket \u2014 from a fixed product list, then each run prices every line item at named stores via paknsave-nz/newworld-nz/woolworths-nz/grocer-nz, normalises to price-per-unit (the APIs already return comparative price per unit), and computes the weekly cost of feeding a reference household. It benchmarks that cost against the AHC poverty line and a Jobseeker/Sole Parent budget so the gap is expressed as a share of income, with regional and store-by-store variation.",
+        "data": "paknsave-nz, newworld-nz, woolworths-nz, grocer-nz (live per-store prices, price-per-unit), child-poverty-nz (AHC line), household-hardship-nz (income adequacy), public-housing-nz (AS context for the disposable-income side). Claude for basket normalisation reasoning, structured output, and the weekly narrative.",
+        "deliverable": "Deployed dashboard showing the live cost of each basket by store and region, the cost as a share of a benefit household's income, and a Claude-written weekly food-poverty note \u2014 re-runnable as an ongoing series.",
+        "why_a_day": "A fixed product list makes pricing a deterministic loop over live endpoints that already return per-unit prices; the only judgement (basket composition) is pre-agreed at the start of the day.",
+        "govt_value": "MSD and Stats NZ get a transparent, repeatable food-affordability indicator tied to official income measures \u2014 useful for cost-of-living monitoring and for evidencing the inadequacy of benefit levels against real grocery prices.",
+        "stack": "Python pricing job + Claude (structured output + narrative), React dashboard, scheduled re-run."
+      },
+      {
+        "title": "Right-Sized Support \u2014 an entitlement-maximiser agent for whole-of-household take-up",
+        "build": "A guided Claude agent that interviews a household (or a case worker) about composition, income, region, rent, costs, and circumstances, then reasons across the support landscape to surface likely-unclaimed entitlements \u2014 Accommodation Supplement headroom (public-housing-nz), social-housing register eligibility, and hardship indicators that signal additional MSD support \u2014 and quantifies the dollar value left on the table. It outputs a prioritised, plain-English action list with the official basis for each, plus a referral note.",
+        "data": "public-housing-nz (accommodation supplement, social-housing register, tenancies), household-hardship-nz (income adequacy, rent burden), child-poverty-nz (hardship indicators, AHC line), msd-benefits-nz (benefit-type context). Claude for the interview flow, eligibility reasoning, dollar quantification, and the action list/referral note.",
+        "deliverable": "Working conversational tool: answer a short set of questions, get a prioritised list of likely-unclaimed support with estimated weekly dollar value and the official basis, exportable as a referral note.",
+        "why_a_day": "Builds on the same live skills as BenefitCheck but invests the day in the conversational eligibility logic rather than a calculator UI \u2014 a single Claude agent with tool use, no bespoke front end required for a strong demo.",
+        "govt_value": "Work and Income and community/NGO advocates get a take-up tool that directly attacks under-claiming of Accommodation Supplement and IRRS \u2014 non-take-up is a known leak in income adequacy, and lifting it costs nothing in new policy.",
+        "stack": "Claude agent (tool use) via nz-skills MCP, thin chat UI or CLI demo."
+      },
+      {
+        "title": "Debt-to-the-State Dashboard \u2014 cost-of-living pressure on benefit households",
+        "build": "A dashboard that combines the macro cost-of-living picture with household adequacy: live CPI and the relevant cost components (stats-nz), the OCR and retail mortgage/floating rates (rbnz-data, interest-co-nz), a live food-basket cost (grocer-nz/paknsave-nz), and regional rent and AS context (public-housing-nz), all benchmarked against benefit-household budgets and the AHC poverty line (child-poverty-nz, household-hardship-nz). Claude narrates how recent CPI and rate moves erode a benefit household's real disposable income over time and where the squeeze is tightest.",
+        "data": "stats-nz (CPI), rbnz-data (OCR, retail rates), interest-co-nz (mortgage/floating rates), grocer-nz/paknsave-nz (food basket), public-housing-nz (rent + AS), child-poverty-nz + household-hardship-nz (poverty line, adequacy). Claude for the time-series narrative and structured output.",
+        "deliverable": "Deployed dashboard tracking real disposable income for benefit-household archetypes against CPI, rates, food, and rent, with a Claude-written cost-of-living pressure briefing.",
+        "why_a_day": "Every series is a keyless or single-key live endpoint already exposed by the skills; the dev day is assembling a few charts and one Claude narrative step over clean numbers.",
+        "govt_value": "Treasury, MSD, and the Child Poverty Unit get a live cost-of-living-vs-adequacy monitor that ties macro indicators directly to whether benefit levels still clear the poverty line \u2014 strong evidence for indexation timing.",
+        "stack": "React + charting (Recharts), Claude narrative step, static host with scheduled data refresh."
+      },
+      {
+        "title": "Pathways Out \u2014 a regional work-and-skills matcher for benefit recipients",
+        "build": "A tool that, for a chosen Work and Income region, pulls the local benefit population by type and demographic (msd-benefits-nz), live local job listings (seek-co-nz, treated as ToS-sensitive: narrow, low-volume queries), and regional hardship and adequacy context (household-hardship-nz, child-poverty-nz). Claude analyses the gap between the local Jobseeker cohort and what local roles actually demand, flags where in-work income would still leave a family below the AHC line (the in-work poverty trap), and writes a regional pathways brief on skills/role mismatches and where the In-Work Tax Credit gap matters most.",
+        "data": "msd-benefits-nz (Jobseeker/Sole Parent numbers by region and demographic), seek-co-nz (live local job listings, kept narrow for ToS), household-hardship-nz + child-poverty-nz (in-work adequacy, AHC line), public-housing-nz (regional rent for the in-work budget). Claude for the gap analysis, in-work-poverty flagging, and the regional brief.",
+        "deliverable": "Working regional tool: pick a region, get the Jobseeker-cohort-vs-local-roles gap, a flag on whether typical local roles clear the AHC line for a family, and a Claude-written pathways brief.",
+        "why_a_day": "The MSD data is keyless and live; SEEK queries are kept narrow and local to stay light and ToS-respectful. The day's work is one regional join plus Claude's analysis \u2014 no employment model needed.",
+        "govt_value": "MSD employment services and regional commissioners get evidence on local skills mismatches and, crucially, on where moving into work still leaves families poor \u2014 directly informing the report's work-pathways and In-Work Tax Credit levers.",
+        "stack": "FastAPI + Claude agent (kept local/stdio for SEEK ToS), simple region-picker front end."
+      }
+    ],
+    "closing": "Ten tools, one day, one aim: turn New Zealand's official open data into things government can act on the very next morning to lift families out of poverty."
   }
 }
