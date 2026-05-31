@@ -1,0 +1,68 @@
+{
+  "year": 2025,
+  "measures": {
+    "MEASA": {
+      "short": "BHC<50% (primary, moving)",
+      "pct": 12.6,
+      "n": 148.7
+    },
+    "MEASB": {
+      "short": "AHC<50% (primary, anchored)",
+      "pct": 17.8,
+      "n": 210.6
+    },
+    "MEASC": {
+      "short": "material hardship (primary)",
+      "pct": 14.3,
+      "n": 169.3
+    },
+    "MEASE": {
+      "short": "BHC<60%",
+      "pct": 21.7,
+      "n": 256.4
+    },
+    "MEASF": {
+      "short": "AHC<60%",
+      "pct": 29.9,
+      "n": 354.2
+    },
+    "MEASG": {
+      "short": "AHC<50% (moving)",
+      "pct": 21.5,
+      "n": 254.5
+    },
+    "MEASH": {
+      "short": "AHC<40%",
+      "pct": 13.4,
+      "n": 158.1
+    },
+    "MEASI": {
+      "short": "severe material hardship",
+      "pct": 6.0,
+      "n": 71.0
+    },
+    "MEASJ": {
+      "short": "low income + hardship (combined)",
+      "pct": 8.6,
+      "n": 101.6
+    }
+  },
+  "primary_by_ethnicity": {
+    "European": 9.4,
+    "M\u0101ori": 14.9,
+    "Pacific peoples": 18.7,
+    "Asian": 15.7,
+    "Middle Eastern/Latin American/African": 17.1,
+    "Other ethnicity": 14.2,
+    "All ethnicities": 12.6
+  },
+  "hardship_by_ethnicity": {
+    "European": 11.5,
+    "M\u0101ori": 25.1,
+    "Pacific peoples": 31.0,
+    "Asian": 5.9,
+    "Middle Eastern/Latin American/African": 13.5,
+    "Other ethnicity": 25.7,
+    "All ethnicities": 14.3
+  }
+}

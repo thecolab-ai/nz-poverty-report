@@ -1,0 +1,816 @@
+{
+  "drivers": [
+    {
+      "key": "baseline",
+      "title": "The Poverty Baseline",
+      "findings": {
+        "dimension": "The Poverty Baseline",
+        "headline": "One in seven New Zealand children \u2014 about 169,300 \u2014 now live in material hardship, the highest count in a decade, while 210,600 fall below the anchored after-housing-costs income line; M\u0101ori, Pacific, disabled and sole-parent children bear two-to-three times the national rate.",
+        "key_stats": [
+          {
+            "label": "Children in material hardship (MEASC, lacking 6+ of 17 essentials) \u2014 one in seven",
+            "value": "14.3% / 169,300 children (95% CI 13.1\u201315.5%); up 0.8pp and ~10,500 children on 2024, and 47,500 more than the 2022 low",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (CPRA measure MEASC)"
+          },
+          {
+            "label": "Children in severe material hardship (MEASI, lacking 9+ of 17 essentials)",
+            "value": "6.0% / 71,000 children (95% CI 5.3\u20136.7%)",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (CPRA measure MEASI)"
+          },
+          {
+            "label": "Children below 50% median income, before housing costs (MEASA, primary moving-line)",
+            "value": "12.6% / 148,700 children (95% CI 11.3\u201313.8%)",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (CPRA measure MEASA)"
+          },
+          {
+            "label": "Children below 50% median income, after housing costs, anchored (MEASB, primary)",
+            "value": "17.8% / 210,600 children (95% CI 16.7\u201318.9%)",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (CPRA measure MEASB)"
+          },
+          {
+            "label": "Children in BOTH low income and material hardship (MEASJ, combined)",
+            "value": "8.6% / 101,600 children (95% CI 7.5\u20139.6%) \u2014 the deepest, most entrenched poverty",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (CPRA measure MEASJ)"
+          },
+          {
+            "label": "Material hardship by ethnicity \u2014 M\u0101ori and Pacific over-represented",
+            "value": "Pacific 31.0% (54,400), M\u0101ori 25.1% (76,900) vs European 11.5% and Asian 5.9%; All children 14.3%",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025, MEASC by ethnicity"
+          },
+          {
+            "label": "Material hardship by disability \u2014 disabled children and disabled households",
+            "value": "Disabled children 26.9% (31,900); children in a disabled household 27.5% (100,200) vs 8.4% in non-disabled households",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025, MEASC by disability"
+          },
+          {
+            "label": "Sole-parent households at the bottom of the income distribution",
+            "value": "Nearly 80% of households on the lowest incomes were sole-parent households, on average disposable income under $46,000",
+            "source": "Stats NZ / RNZ coverage of Child poverty statistics: Year ended June 2025"
+          }
+        ],
+        "incidence": "Poverty in New Zealand is sharply concentrated, not evenly spread. Against an all-children material hardship rate of 14.3% (MEASC), Pacific children sit at 31.0% (54,400) and M\u0101ori children at 25.1% (76,900) \u2014 roughly two to three times the European rate of 11.5% and five times the Asian rate of 5.9%. The gap widens at the severe end (MEASI, 9+ lacks, 6.0% nationally): Pacific 14.9% and M\u0101ori 12.2%, against European 4.7% and Asian 1.1% \u2014 Pacific and M\u0101ori children are roughly three times more likely to go without basics like fresh food, heating, decent clothing or a warm dry home. Disability is an equally powerful axis: disabled children face 26.9% material hardship, and any child living in a household with a disabled member faces 27.5% (100,200 children) versus 8.4% where no one is disabled. Sole-parent families are the structural core of the problem \u2014 nearly 80% of the lowest-income households are sole-parent, living on under ~$46,000 disposable income. These axes compound: a M\u0101ori or Pacific child in a sole-parent, benefit-reliant or disabled household sits at the intersection of every risk factor, which is why the same families recur across every CPRA measure.",
+        "narrative": "The poverty baseline is the floor on which every other deprivation \u2014 housing, food, health, education \u2014 is built, and in the year to June 2025 that floor sat lower than at any point in roughly a decade. Stats NZ's Child Poverty Reduction Act release records 169,300 children (14.3%) in material hardship (MEASC) \u2014 one in seven \u2014 up 0.8 percentage points and about 10,500 children on 2024, and 47,500 more than the 2022 trough of 10.6%. The trend tells the story plainly: hardship fell from 13.3% in 2018 to a low of 10.6% in 2022 (helped by Covid-era income supports and Working for Families/benefit increases), then climbed steadily through 2023 (12.6%), 2024 (13.5%) and 2025 (14.3%) as the cost-of-living shock outran incomes. Of those 169,300 children, 71,000 (6.0%, MEASI) are in severe hardship, lacking nine or more of seventeen essentials \u2014 children who routinely go without enough food, heating, shoes that fit, or a doctor's visit when sick.\n\nIncome poverty runs in parallel and, on the after-housing-costs anchored line (MEASB), is broader still: 210,600 children (17.8%) fall below 50% of median income once rent or mortgage is paid, against 148,700 (12.6%) on the headline before-housing-costs measure (MEASA). The gap between those two numbers \u2014 roughly 62,000 children \u2014 is almost entirely a housing-cost story: families have nominally adequate income that is consumed by rent before food, power and clothing are bought. The most diagnostic figure is the combined measure (MEASJ): 101,600 children (8.6%) are simultaneously in low income AND material hardship. This is the hard core of persistent poverty \u2014 families who are both income-poor and unable to afford basics, where deprivation is not a temporary squeeze but a settled condition.\n\nThrough a poverty lens, this dimension is the engine that drives every downstream hardship. Low and insecure income \u2014 disproportionately from benefits, sole-parent earnings, or precarious low-wage work \u2014 leaves no buffer, so a rent rise, a power bill, a broken-down car or a medical cost tips a household straight into going without. The mechanism is visible in the data: nearly 80% of the lowest-income households are sole-parent, living on under ~$46,000, and children in those households, in benefit-reliant households, and in disabled households recur at the top of every hardship table. Hardship is the lived experience of poverty \u2014 cold homes, skipped meals, deferred healthcare, kids who can't take part \u2014 and once a family is in it, the costs of escaping (debt, poor health, disrupted schooling) make it self-reinforcing. A methodological caveat: from 2025 Stats NZ measures material hardship using the new MH18 index under the Household Income and Living Survey (HILS), which replaced the Household Economic Survey, so 2025 hardship and disabled-children figures are not strictly comparable with earlier DEP-17 years \u2014 but the direction (rising hardship, persistent inequity) is unambiguous.\n\nThe distributional verdict is the heart of the matter: New Zealand does not have a generalised poverty problem so much as a deeply concentrated one. Being M\u0101ori or Pacific, disabled (or living with a disabled family member), or in a sole-parent household each multiplies hardship risk two- to three-fold, and these factors stack. The baseline challenge is therefore not only how many children are poor, but that the same identifiable groups \u2014 by ethnicity, disability and family structure \u2014 are poor again and again, year after year, which is precisely what makes the poverty baseline structural rather than incidental.",
+        "contribution": "Maximal \u2014 this IS the baseline. Low and insecure income (148,700\u2013210,600 children below the 50% line) is the upstream cause; material hardship (169,300 children, MEASC) is poverty's direct lived expression; severe hardship (71,000, MEASI) and combined low-income-plus-hardship (101,600, MEASJ) mark its entrenched core. Every other dimension of the report \u2014 housing, food insecurity, health, energy hardship, education \u2014 flows downstream from this income/deprivation floor. The rising trend (10.6% in 2022 to 14.3% in 2025) and the two-to-three-fold over-representation of M\u0101ori, Pacific, disabled and sole-parent children show the driver is both worsening and structurally concentrated, making it the single strongest and most foundational driver of poverty in New Zealand.",
+        "sources": [
+          "Stats NZ \u2014 Child poverty statistics: Year ended June 2025 (CPRA measures MEASA, MEASB, MEASC, MEASI, MEASJ; national, ethnicity and disability breakdowns): https://www.stats.govt.nz/information-releases/child-poverty-statistics-year-ended-june-2025/",
+          "Stats NZ \u2014 Child poverty statistics: Year ended June 2025, CSV download (data queried via nz-skills child-poverty-nz skill): https://www.stats.govt.nz/assets/Uploads/Child-poverty-statistics/Child-poverty-statistics-Year-ended-June-2025/Download-data/child-poverty-statistics-year-ended-june-2025.zip",
+          "Stats NZ \u2014 Stats NZ updates material hardship measure for child poverty statistics (DEP-17 to MH18 / HILS transition): https://www.stats.govt.nz/news/stats-nz-updates-material-hardship-measure-for-child-poverty-statistics/",
+          "Stats NZ \u2014 Child poverty statistics: Year ended June 2025 technical appendix: https://www.stats.govt.nz/methods/child-poverty-statistics-year-ended-june-2025-technical-appendix/",
+          "RNZ \u2014 One in seven New Zealand children living in hardship, new data shows: https://www.rnz.co.nz/news/national/588006/one-in-seven-new-zealand-children-living-in-hardship-new-data-shows",
+          "Child Poverty Action Group \u2014 Child material hardship rates climb to 10-year high: https://www.cpag.org.nz/media-releases/child-material-hardship-rates-climb-to-10-year-high",
+          "Ministry of Social Development \u2014 Child poverty reduction measures and targets: https://www.msd.govt.nz/about-msd-and-our-work/child-wellbeing-and-poverty-reduction/child-poverty-reduction-measures-targets.html"
+        ]
+      },
+      "verdict": {
+        "confidence": 8,
+        "logic_ok": true,
+        "flagged": [
+          {
+            "stat": "Headline 'highest count in a decade' + 'up 0.8pp and ~10,500 children on 2024' (material hardship 14.3%/169,300)",
+            "issue": "Overstates certainty. Stats NZ explicitly says there was NO statistically significant change in material hardship from 2024 (or from the 2018 baseline); only the rise vs the 2022 low (10.6%/121,800) is statistically significant. The year-on-year +0.8pp/+10,500 movement is within sampling error and should be presented as such, not as a definitive increase. The narrative's 'climbed steadily through 2023, 2024 and 2025' has the same issue."
+          },
+          {
+            "stat": "BHC vs AHC gap of ~62,000 children attributed 'almost entirely' to housing costs (MEASA 12.6%/148,700 vs MEASB 17.8%/210,600)",
+            "issue": "Methodological mismatch: MEASA is the BHC MOVING line while MEASB is the AHC FIXED/ANCHORED-2018 line. Comparing a moving-base measure to an anchored-base measure conflates the housing-cost effect with the moving-vs-anchored base difference. The like-for-like housing-cost gap should compare BHC-anchored to AHC-anchored. Direction (AHC>BHC) is correct, but 'almost entirely a housing-cost story' overstates."
+          },
+          {
+            "stat": "Disabled-household material hardship 27.5%/100,200 vs 8.4% non-disabled; severe hardship 6.0%/71,000; combined MEASJ 8.6%/101,600",
+            "issue": "Pass all internal-consistency checks and rates are plausible, but these specific counts could not be independently line-verified against the Stats NZ release in available press coverage (headline rates 14.3%/12.6%/17.8%, Maori 25.1%, Pacific 31%, and the 80%/<$46,000 sole-parent figure WERE confirmed). Low-risk, source-confirmation gap only."
+          }
+        ],
+        "note": "All internal-consistency logic checks PASS: severe(6.0%/71k)<=material(14.3%/169.3k); AHC(17.8%/210.6k)>=BHC(12.6%/148.7k) with gap 61,900~='62,000'; combined MEASJ(8.6%/101.6k)<=both components; every national pct/count pair implies a consistent ~1.18m child population; subgroup rates straddle the national rate correctly (Asian 5.9 < European 11.5 < all 14.3 < Maori 25.1 < Pacific 31.0); trend arithmetic coherent (2024=13.5%=14.3-0.8; 2022=10.6%/121,800; +47,500). The DEP-17 '6+ of 17 / severe 9+ of 17' item definitions are correct for the headline CPRA measure (the 7+/18 MH-18 index is the new transition index, not the headline figure - not an error). Headline rates, Maori/Pacific rates, and the sole-parent 80%/<$46,000 claim all confirmed against Stats NZ/RNZ. Main weakness is interpretive, not arithmetic: presenting a year-on-year movement that Stats NZ calls not statistically significant as a definitive rise.\"}"
+      }
+    },
+    {
+      "key": "housing",
+      "title": "Housing Costs \u2014 the master driver",
+      "findings": {
+        "dimension": "Housing Costs \u2014 the master driver",
+        "headline": "Housing costs are the engine that converts low income into real hardship in New Zealand: after paying for shelter, 210,600 children fall below the 50% poverty line versus 148,700 before housing costs \u2014 meaning rent and mortgages alone push roughly 62,000 more children into poverty, a 42% larger child-poverty population created by housing alone. One in three low-income households now spend 40%+ of every dollar on housing, the public housing register still holds ~19,431 households, and the taxpayer pours ~$85m a week into the Accommodation Supplement that largely flows through to landlords rather than lifting families clear of hardship.",
+        "key_stats": [
+          {
+            "label": "Children in poverty BEFORE housing costs (BHC<50%, moving line, yr-end June 2025)",
+            "value": "12.6% \u2014 148,700 children",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (measure MEASA)"
+          },
+          {
+            "label": "Children in poverty AFTER housing costs (AHC<50%, anchored line, yr-end June 2025)",
+            "value": "17.8% \u2014 210,600 children",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (measure MEASB)"
+          },
+          {
+            "label": "The housing gap: extra children pushed into poverty by housing costs alone",
+            "value": "+5.2 percentage points / ~61,900 more children (AHC vs BHC)",
+            "source": "Derived from Stats NZ MEASB minus MEASA, Year ended June 2025"
+          },
+          {
+            "label": "Children below the broader 60% AHC line (housing-sensitive measure)",
+            "value": "29.9% \u2014 354,200 children (vs 12.6% on the strict BHC line)",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (measure MEASF)"
+          },
+          {
+            "label": "Low-income households spending 40%+ of income on housing (yr-end June 2024)",
+            "value": "~1 in 3 (31.7% of households earning under $41,600); 19.7% of ALL households",
+            "source": "Stats NZ, Household income and housing-cost statistics: Year ended June 2024 (via interest.co.nz)"
+          },
+          {
+            "label": "Average weekly rent rise, year to June 2024 (outpacing income)",
+            "value": "$427.10 \u2192 $465.50 per week (+9.0%); mortgages +8.7%",
+            "source": "Stats NZ, Household income and housing-cost statistics: Year ended June 2024"
+          },
+          {
+            "label": "Accommodation Supplement: recipients and weekly cost (Dec 2024)",
+            "value": "769,954 recipients; ~$84.9m paid per week (~$4.4bn annualised)",
+            "source": "Ministry of Housing and Urban Development (HUD), Housing Support timeseries, as at 1 Dec 2024"
+          },
+          {
+            "label": "Public housing register (households waiting) and tenancies in place",
+            "value": "19,431 applicants waiting at 30 Sep 2025 (down 11.5% yr/yr); 83,576 IRRS+market tenancies at 31 Mar 2025",
+            "source": "Ministry of Social Development Housing Register (via interest.co.nz/NZ Herald); HUD Social Housing Tenancies, 31 Mar 2025"
+          },
+          {
+            "label": "Children in material hardship (lacking 6+ of 17 essentials, yr-end June 2025)",
+            "value": "14.3% \u2014 169,300 children (up 0.8pp / +10,500 on prior year)",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (measure MEASC)"
+          }
+        ],
+        "incidence": "Housing costs fall hardest on those with the least equity and the least flexibility: low-income renters, sole-parent families, M\u0101ori and Pacific households, and people on benefits. The 40%+ rent-burden threshold is breached by 31.7% of households earning under $41,600 and 31% of those earning $41,600\u2013$69,999 \u2014 versus 19.7% of all households (Stats NZ, yr-end June 2024), so the burden is roughly 60% more concentrated among the poorest. Geographically the Accommodation Supplement caseload concentrates in high-rent, high-deprivation areas \u2014 Auckland alone has 128,352 AS recipients drawing $18.9m a week, and South Auckland board areas (Manurewa 12,640; \u014ctara\u2013Papatoetoe 9,311; M\u0101ngere\u2013\u014ctahuhu 8,856) plus provincial hardship pockets (Far North 8,541, Whang\u0101rei 9,035, Rotorua 8,905) carry disproportionate loads (HUD, Dec 2024). Children bear it most acutely: the AHC measures (17.8% strict, 29.9% on the 60% line) sit far above the BHC measure (12.6%), and that wedge IS the housing cost \u2014 children in renting and benefit-dependent households are over-represented in the gap. The 19,431 households on the public housing register and 83,576 already in subsidised tenancies are the most acute cases, where market rent is simply unpayable without income-related rent setting.",
+        "narrative": "Housing is the master driver of New Zealand poverty because it is the single largest, least-avoidable cost in a low-income budget, and the country measures poverty in a way that makes its impact unusually visible. Stats NZ reports child poverty both before housing costs (BHC) and after housing costs (AHC); the difference between the two is, by construction, the slice of families whose incomes look adequate on paper but who are tipped below the line once the rent or mortgage is paid. In the year to June 2025 that gap was stark: 12.6% of children (148,700) were poor on the strict 50%-of-median BHC line, but 17.8% (210,600) were poor on the equivalent AHC line \u2014 roughly 61,900 additional children driven into poverty by housing costs alone, a 42% enlargement of the child-poverty population. Widen the lens to the 60%-of-median AHC line and 29.9% of children \u2014 354,200 \u2014 are below it (Stats NZ, MEASF). Housing doesn't just correlate with poverty in New Zealand; arithmetically it manufactures a large share of it.\n\nThe mechanism is a rent-and-cost squeeze that outruns incomes. In the year to June 2024 average weekly rent rose 9.0% (to $465.50) and mortgage payments 8.7% (to $658.20), faster than wages, so housing claimed a growing share of the budget (Stats NZ, Household income and housing-cost statistics). The result: about one in three low-income households (31.7% of those earning under $41,600) now spend 40% or more of their income on housing, against 19.7% of all households. Once 40\u201350% of income is committed to shelter, what remains cannot stretch to cover food, power, transport and shoes \u2014 which is precisely why material hardship is rising again. Children in material hardship (lacking 6+ of 17 essentials) climbed to 14.3% (169,300) in the year to June 2025, up 10,500 on the prior year, even as the BHC income measure barely moved. That divergence \u2014 flat income poverty, rising hardship \u2014 is the fingerprint of housing costs eating the residual budget.\n\nThe state's response is large but leaky. The Accommodation Supplement reaches 769,954 recipients at a cost of roughly $84.9m a week \u2014 about $4.4bn a year (HUD, Dec 2024) \u2014 yet because it is a demand-side cash subsidy in a supply-constrained rental market, much of it capitalises into higher rents and flows to landlords rather than lifting tenants clear of the 40% burden line. The deeper relief, income-related rent (capped at ~25% of income), is rationed: only 83,576 IRRS and market tenancies exist (HUD, 31 Mar 2025) while 19,431 households sit on the public housing register at 30 September 2025 \u2014 down 11.5% year-on-year but still a queue of acute need, with monthly figures showing the register peaking above 27,000 in 2025 before recent declines (MSD, via interest.co.nz and NZ Herald). For those families, the difference between a market tenancy and an income-related one is frequently the difference between hardship and stability \u2014 the same household, same income, radically different after-housing position.\n\nThrough a poverty lens, housing is therefore not one driver among several \u2014 it is the converter that turns inadequate-but-survivable incomes into genuine deprivation. It is also the most persistent: unlike a one-off cost, rent recurs every week and ratchets upward, so families in the BHC-to-AHC gap have no path out without either a rent reduction (public housing, which is rationed) or an income lift large enough to clear the housing wedge (which benefit and wage levels rarely deliver). The same dynamic explains why poverty is so geographically and ethnically concentrated, tracking the map of unaffordable rent in Auckland, Northland, and provincial hardship towns. Any serious attack on New Zealand poverty has to run through housing \u2014 supply, security of tenure, and the rent-to-income ratio \u2014 because that is where income poverty becomes lived hardship.",
+        "contribution": "Strongest single driver \u2014 effectively the master variable. The BHC-versus-AHC gap quantifies it directly: housing costs convert a 12.6% child-poverty rate into 17.8% (strict line) and add ~61,900 children, while the 60% AHC line reaches 29.9% (354,200 children). No other single cost category in the New Zealand poverty accounts has this scale of independent, measurable effect. Housing also amplifies every other driver \u2014 low benefits, low wages, food and energy hardship \u2014 because it consumes the budget first, leaving the residual exposed. The recent rise in material hardship (14.3% of children, +10,500 in a year) despite roughly flat income poverty confirms housing is the active margin pushing families from 'low income' into 'going without'. It is the highest-leverage intervention point for reducing measured poverty.",
+        "sources": [
+          "Stats NZ \u2014 Child poverty statistics: Year ended June 2025 (measures MEASA BHC<50%, MEASB AHC<50% anchored, MEASC material hardship 6+, MEASF AHC<60%): https://www.stats.govt.nz/information-releases/child-poverty-statistics-year-ended-june-2025/",
+          "Stats NZ \u2014 Household income and housing-cost statistics: Year ended June 2024 (rent/mortgage rises; 40%+ housing-cost burden): https://www.stats.govt.nz/information-releases/household-income-and-housing-cost-statistics-year-ended-june-2024/",
+          "Stats NZ \u2014 Housing costs continue to put pressure on households in year to June 2024: https://www.stats.govt.nz/news/housing-costs-continue-to-put-pressure-on-households-in-year-to-june-2024/",
+          "interest.co.nz \u2014 A third of low-income households spend more than 40% of money on housing: https://www.interest.co.nz/personal-finance/132017/",
+          "Ministry of Housing and Urban Development (HUD) \u2014 Housing Support timeseries: Accommodation Supplement recipients/weekly spend (Dec 2024) and Social Housing Tenancies (31 Mar 2025), data.govt.nz: https://catalogue.data.govt.nz/dataset/877577c5-b059-4750-84eb-730662ae92b8",
+          "Ministry of Social Development \u2014 Housing Register (19,431 applicants at 30 Sep 2025): https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/housing/housing-register.html",
+          "NZ Herald \u2014 Has social housing demand peaked? Ballooning waitlist now trending down: https://www.nzherald.co.nz/nz/politics/has-social-housing-demand-peaked-ballooning-waitlist-now-trending-down/",
+          "HUD \u2014 Government Housing Dashboard, Housing Register: https://www.hud.govt.nz/stats-and-insights/the-government-housing-dashboard/housing-register"
+        ]
+      },
+      "verdict": {
+        "confidence": 7,
+        "logic_ok": false,
+        "flagged": [
+          {
+            "stat": "Accommodation Supplement: 769,954 recipients; ~$84.9m/week (~$4.4bn annualised), HUD Dec 2024",
+            "issue": "FACTUALLY WRONG, roughly DOUBLE reality. The actual AS caseload is ~364,000 recipients costing ~$2.34bn/year (~$45m/week) per MSD/HUD and reported by The Conversation/NZ Herald for the year to Jan 2024. 769,954 recipients would be ~15% of NZ's entire population, implausible for a means-tested top-up. Both the recipient count (~2.1x) and the weekly/annual cost (~1.9x) are inflated. Likely confuses 'people in AS-assisted households' or a different series with recipient units, and double-counts the cost. This is the single most serious error in the chapter and undermines the '$85m a week to landlords' headline. The regional breakdown (Auckland 128,352 / $18.9m wk; South Auckland boards) is internally consistent as subsets but inherits the inflated total."
+          },
+          {
+            "stat": "The housing gap: +5.2pp / ~61,900 more children pushed into poverty by housing costs alone (AHC vs BHC); '42% larger child-poverty population created by housing alone'; headline '~62,000 more children'",
+            "issue": "METHODOLOGICALLY INVALID causal claim, though arithmetic is correct. The chapter subtracts BHC50 MEASA (12.6%, a MOVING/relative line) from AHC50 MEASB (17.8%, an ANCHORED 2017/18 fixed line). These are different line definitions, so the 61,900 difference is NOT purely the housing-cost deduction, it conflates the housing wedge with the gap between a moving and an anchored line. A valid housing wedge compares BHC and AHC on the SAME line basis. The 'housing alone manufactures 62,000 children of poverty / 42% enlargement' framing is overstated and not supported by these two non-comparable measures. (Subtraction 210,600-148,700=61,900 and 41.6%~=42% do check out arithmetically.)"
+          },
+          {
+            "stat": "Children below the broader 60% AHC line: 29.9% \u2014 354,200 children (MEASF)",
+            "issue": "Plausible and consistent with Stats NZ public statement that AHC numbers are 'over 353,000', but compared in the same row against '12.6% on the strict BHC line' \u2014 an apples-to-oranges juxtaposition (60% AHC vs 50% BHC) that exaggerates the housing effect, same flaw as the wedge."
+          }
+        ],
+        "note": "Verified against Stats NZ (Child poverty: yr-ended June 2025) and MSD/HUD. CONFIRMED CORRECT: BHC50 12.6%/148,700; AHC50-fixed 17.8%/210,600; AHC60 29.9%/~354,200 (Stats NZ 'over 353,000'); material hardship 14.3%/169,300 (up from 121,800 in 2022); rent $427.10\u2192$465.50 = +9.0%; public housing register 19,431 at 30 Sep 2025, down 11.5% yr/yr. Implied child population is consistent (~1.18m) across all four poverty pairs. Material hardship (14.3%) > BHC poverty (12.6%) is plausible. AHC>=BHC holds. No severe-hardship subset was given, so that subset<=total check is N/A. logic_ok=false set primarily because (1) the AS recipient/cost figures are internally inconsistent with the verified national caseload/spend (roughly 2x), and (2) the central housing-wedge derivation mixes a moving-line and an anchored-line measure, making the headline causal claim ('housing alone pushes ~62,000 more children / 42% larger') unsupported even though the subtraction is arithmetically correct. Recommend: correct AS to ~364,000 recipients and ~$2.34bn/yr (~$45m/wk); recompute the housing wedge using same-line BHC vs AHC; and stop comparing 60% AHC against 50% BHC in the same breath."
+      }
+    },
+    {
+      "key": "income",
+      "title": "Income Adequacy \u2014 benefits, wages, Working for Families",
+      "findings": {
+        "dimension": "Income Adequacy \u2014 benefits, wages and Working for Families",
+        "headline": "New Zealand's main benefits sit tens of dollars a week below what the government's own experts say a household needs to participate in society \u2014 a designed-in income gap that converts beneficiary status into near-automatic hardship, even as wage earners' real pay only recently clawed back ground lost to inflation.",
+        "key_stats": [
+          {
+            "label": "Annual CPI inflation, March 2026 quarter (cost-of-living pressure on fixed benefit incomes)",
+            "value": "3.1% (index 1339, up from 1272 in June 2024 \u2014 a 5.3% rise in the general price level in under two years)",
+            "source": "Stats NZ, Consumers Price Index March 2026 quarter (via nz-skills stats-nz)"
+          },
+          {
+            "label": "WEAG benchmark income shortfall: gap between benefit income and an 'adequate participation' income",
+            "value": "$92/week (single, public housing) up to $356/week (couple, two children, private rental); a single person renting in South Auckland needed $596/week but received $423",
+            "source": "Welfare Expert Advisory Group, 'Whakamana T\u0101ngata' (weag.govt.nz)"
+          },
+          {
+            "label": "Jobseeker Support net rate, single 25+ (after-tax weekly income to cover all living costs before supplements)",
+            "value": "$372.55/week (from 1 April 2026); Sole Parent Support $521.52; Supported Living couple with children $756.94",
+            "source": "MSD / Work and Income, benefit rates (workandincome.govt.nz, via MoneyHub)"
+          },
+          {
+            "label": "People on a main benefit (working-age dependence on inadequate core incomes)",
+            "value": "406,128 at end of June 2025 \u2014 12.5% of the working-age population (398,163 / 12.2% in March 2025)",
+            "source": "MSD Benefit Fact Sheets, June 2025 quarter (msd.govt.nz)"
+          },
+          {
+            "label": "Children in material hardship (going without 6+ of 17 DEP-17 essentials)",
+            "value": "169,300 children \u2014 14.3% (severe hardship, lacking 9+ items: 71,000 children / 6.0%)",
+            "source": "Stats NZ, Child Poverty Statistics, Year ended June 2025 (via nz-skills child-poverty-nz)"
+          },
+          {
+            "label": "Children in low income after housing costs, anchored line (<50% AHC)",
+            "value": "210,600 children \u2014 17.8%",
+            "source": "Stats NZ, Child Poverty Statistics, Year ended June 2025 (via nz-skills child-poverty-nz)"
+          },
+          {
+            "label": "Material hardship by ethnicity / disability (who the income gap hits)",
+            "value": "M\u0101ori 23.9%, Pasifika 28.7%, children in a household with a disabled person 22.6%, vs 14.3% overall",
+            "source": "Office of the Auditor-General, child poverty report 2025 (oag.parliament.nz); Stats NZ"
+          },
+          {
+            "label": "Working for Families abatement threshold change (Budget 2025, from 1 April 2026)",
+            "value": "Threshold lifted $42,700 \u2192 $44,900; abatement rate 27% \u2192 27.5%; ~142,000 families gain an average $14/fortnight (threshold frozen since 2018)",
+            "source": "Beehive / Budget 2025 (beehive.govt.nz; budget.govt.nz)"
+          },
+          {
+            "label": "Nominal wage growth 2025 (real-wage squeeze for low earners)",
+            "value": "~2.6% over 2025 (down from 8.0% in 2022) against 3.1% CPI \u2014 barely keeping pace; quarterly LCI growth 0.5% in March 2025",
+            "source": "Stats NZ Labour Market Statistics / Labour Cost Index 2025"
+          }
+        ],
+        "incidence": "The income gap is borne most heavily by the roughly 406,000 working-age people on a main benefit (12.5% of the working-age population) and the children in their care. Sole-parent families, M\u0101ori (23.9% of children in material hardship), Pasifika (28.7%), and households containing a disabled person (22.6%) are hit far harder than the 14.3% national average \u2014 because these groups are over-represented in benefit receipt and in high-rent private tenancies where the WEAG shortfall is largest. Renters in private accommodation (gaps up to $356/week) suffer more than public-housing tenants (gap ~$92/week). Low-wage workers near the Working for Families abatement threshold are a second affected group: the threshold's freeze from 2018 to 2026 silently eroded their support as wages and prices rose.",
+        "narrative": "Income adequacy is the mechanism that turns being out of work \u2014 or in low-paid work with children \u2014 into poverty. The Welfare Expert Advisory Group, the government's own 2019 expert panel, measured the gap directly: families on benefits fell short of an \"adequate participation\" income by between $92 a week (a single person in public housing) and $356 a week (a couple with two children in a private rental). A single person renting in South Auckland needed $596 a week but received $423. Crucially, WEAG found that only one modelled household \u2014 a Supported Living recipient in public housing \u2014 could cover even basic needs, and that budget too turned negative once modest costs of social participation were added. The benefit system is, by its own designers' measure, set below subsistence-plus-dignity for almost everyone on it.\n\nThe current numbers show the gap persists. Jobseeker Support for a single person over 25 is $372.55 a week after tax from 1 April 2026 (MSD/Work and Income), and main benefits are indexed to wage movements rather than to any adequacy benchmark \u2014 so the WEAG shortfall is baked in regardless of indexation. Meanwhile prices keep climbing: Stats NZ records annual CPI inflation of 3.1% in the March 2026 quarter, with the price level up 5.3% in under two years (index 1272 to 1339). Because beneficiary incomes are fixed and dominated by non-discretionary costs \u2014 rent, power, food \u2014 even moderate inflation erodes the residual left for everything else, pushing families across the line from low income into outright material hardship.\n\nThe hardship statistics confirm the pathway. Stats NZ's Child Poverty Statistics for the year ended June 2025 show 169,300 children (14.3%) in material hardship \u2014 going without six or more of 17 essentials such as a second pair of shoes or unpostponed doctor visits \u2014 and 71,000 children (6.0%) in severe hardship, lacking nine or more. On the anchored after-housing-costs low-income line, 210,600 children (17.8%) fall below 50% of median income. These rates are not evenly spread: the Office of the Auditor-General's 2025 review found material hardship at 23.9% for M\u0101ori children, 28.7% for Pasifika children and 22.6% for children in households with a disabled person \u2014 precisely the groups most reliant on the inadequate core benefit. With 406,128 working-age people on a main benefit (12.5% of the working-age population, MSD June 2025), the inadequacy is a population-scale driver, not an edge case.\n\nWorking for Families is the partial offset for families, but it has been allowed to wither. Budget 2025 lifted the abatement threshold from $42,700 to $44,900 and the abatement rate from 27% to 27.5% from 1 April 2026 \u2014 the first threshold move since 2018, during which inflation and wage growth steadily clawed back the scheme's real value. The change delivers about 142,000 families an average $14 a fortnight (roughly $7 a week): real, but small against WEAG shortfalls measured in the hundreds of dollars. On the wages side, nominal pay rose only ~2.6% across 2025 against 3.1% CPI, so low-wage workers \u2014 the people WfF is meant to reward for being in work \u2014 saw little or no real gain, weakening the \"work pays\" promise that is supposed to lift families out of benefit-linked poverty. The net effect is a transfer system calibrated below adequacy at the benefit floor and only partially topped up for working families, leaving income inadequacy as the single most direct lever on who is poor.",
+        "contribution": "Very strong \u2014 arguably the most direct, causal driver of poverty in the set. Income adequacy is the proximate determinant of whether a household has enough money to meet needs; the WEAG benchmark shows core benefits are set $92\u2013$356/week below an adequate participation income by the government's own measure, so benefit receipt translates almost mechanically into hardship. The mechanism is visible in the outcome data: hardship concentrates exactly among benefit-reliant groups (M\u0101ori 23.9%, Pasifika 28.7%, disabled-member households 22.6% vs 14.3% overall), and 12.5% of the working-age population depends on these inadequate incomes. Inflation (3.1%) and flat real wages amplify it, while Working for Families' modest 2025 uplift (~$7/week for 142,000 families) only partly offsets it. Because it sets the floor that other drivers (housing costs, debt, health) then push households below, income adequacy functions as the baseline lever for poverty in New Zealand.",
+        "sources": [
+          "Stats NZ, Consumers Price Index March 2026 quarter (via nz-skills stats-nz): https://www.stats.govt.nz/information-releases/",
+          "Stats NZ, Child Poverty Statistics Year ended June 2025 (via nz-skills child-poverty-nz): https://www.stats.govt.nz/large-datasets/csv-files-for-download/",
+          "Welfare Expert Advisory Group, 'Whakamana T\u0101ngata \u2014 Restoring Dignity to Social Security in NZ' (2019): https://www.weag.govt.nz/weag-report/whakamana-tangata/",
+          "MSD / Work and Income, Jobseeker Support and main benefit rates: https://www.workandincome.govt.nz/products/benefit-rates/index.html",
+          "MSD Benefit Fact Sheets, June 2025 quarter: https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/benefit/index.html",
+          "Office of the Auditor-General, 'Effectiveness of arrangements for reducing child poverty' (2025): https://oag.parliament.nz/2025/child-poverty",
+          "Beehive / Budget 2025, 'Increased support for families' (Working for Families changes): https://www.beehive.govt.nz/release/increased-support-families",
+          "Stats NZ, Labour Market Statistics / Labour Cost Index 2025: https://www.stats.govt.nz/information-releases/labour-market-statistics-march-2025-quarter/",
+          "Child Poverty Action Group, Benefit Adequacy policy brief: https://www.cpag.org.nz/policy-briefs/benefit-adequacy"
+        ]
+      },
+      "verdict": {
+        "confidence": 7,
+        "logic_ok": true,
+        "flagged": [
+          {
+            "stat": "Material hardship by ethnicity: 'M\u0101ori 23.9%, Pasifika 28.7%'",
+            "issue": "WRONG VALUES. Stats NZ June 2025 material hardship (MEASC) is M\u0101ori 25.1% and Pacific peoples 31.0%, not 23.9%/28.7%. The cited numbers match no MEASC ethnicity figure (they may be miscopied from a different measure/year). Both still exceed the 14.3% national rate so the directional claim holds, but the specific figures are inaccurate and misattributed to the Auditor-General rather than Stats NZ."
+          },
+          {
+            "stat": "Children in a household with a disabled person: 22.6% (material hardship)",
+            "issue": "WRONG VALUE. Stats NZ June 2025 MEASC for children in a disabled household (DISH01) is 27.5%; disabled children themselves are 26.9%. 22.6% matches neither. Note the skill flags 2025 disability hardship as not comparable to earlier years due to the HILS transition."
+          },
+          {
+            "stat": "WEAG income shortfalls ($92\u2013$356/wk; single South Auckland needed $596 received $423)",
+            "issue": "Outside nz-skills coverage; not machine-verifiable here. Internally plausible and consistent with WEAG 2019 modelling, but unverified against source."
+          },
+          {
+            "stat": "Benefit rates: Jobseeker $372.55, Sole Parent $521.52, Supported Living couple+children $756.94 (1 Apr 2026); 406,128 on main benefit (12.5%); WFF threshold $42,700\u2192$44,900, 27%\u219227.5%, ~142,000 families +$14/fortnight; wage growth ~2.6%",
+            "issue": "All outside nz-skills coverage (MSD/Beehive/Budget sources); not verified. Internally plausible, no consistency violations detected, but should be confirmed against primary sources."
+          }
+        ],
+        "note": "Core Stats NZ figures verified exactly via nz-skills (child-poverty-nz June 2025 release, stats-nz CPI March 2026): material hardship 169,300/14.3%, severe 71,000/6.0%, AHC<50% anchored 210,600/17.8%, CPI 3.1% annual, index 1272\u21921339 (5.3% over 21 months). Internal-consistency logic all PASSES: severe (6.0%) \u2264 material (14.3%) subset holds; AHC poverty (17.8%) \u2265 BHC (12.6%); all sub-group rates exceed national rate plausibly; counts and percentages agree. The TWO substantive errors are in the ethnicity/disability material-hardship VALUES (M\u0101ori should be 25.1% not 23.9%; Pasifika 31.0% not 28.7%; disabled-household child 27.5% not 22.6%) and their misattribution to the Auditor-General rather than Stats NZ. These are accuracy errors, not logic-consistency failures, so logic_ok=true. Benefit-rate, WEAG, MSD beneficiary, WFF and wage figures lie outside nz-skills and remain unverified though internally plausible."
+      }
+    },
+    {
+      "key": "work",
+      "title": "Work, Youth & In-Work Poverty",
+      "findings": {
+        "dimension": "Work, Youth & In-Work Poverty",
+        "headline": "Work is no longer a reliable route out of poverty in New Zealand: over 50,000 households are poor despite having someone in paid work, while a youth jobs collapse has pushed the 15-24 NEET rate to 14.4% (March 2026) - the highest in nearly a decade - locking a generation out at the start.",
+        "key_stats": [
+          {
+            "label": "Youth (15-24) NEET rate, March 2026 quarter - highest in ~9 years",
+            "value": "14.4% (up from 13.3% in Dec 2025)",
+            "source": "Stats NZ, Labour Market Statistics: March 2026 quarter"
+          },
+          {
+            "label": "Youth (15-24) unemployment rate, March 2026 quarter - roughly 3x the general rate",
+            "value": "14.4% (15-19: 24.9%; 20-24: 12.2%)",
+            "source": "Stats NZ, Labour Market Statistics: March 2026 quarter"
+          },
+          {
+            "label": "Overall unemployment rate (8-year high), March 2026 quarter",
+            "value": "5.3%",
+            "source": "Stats NZ, Labour Market Statistics: March 2026 quarter"
+          },
+          {
+            "label": "Working households living in poverty (in-work poverty), before housing costs",
+            "value": "50,000+ households; 7% in-work poverty rate",
+            "source": "AUT NZ Work Research Institute / Te Kahui Tika Tangata Human Rights Commission, 'In-work poverty in New Zealand'"
+          },
+          {
+            "label": "In-work poverty rate, single-parent households",
+            "value": "12.3% (vs 7% overall; 4.8% for couples with no children)",
+            "source": "AUT NZ Work Research Institute / Human Rights Commission"
+          },
+          {
+            "label": "In-work poverty: one-earner couple with children vs two-earner",
+            "value": "13.5% falls to 1.9% with a second earner",
+            "source": "AUT NZ Work Research Institute / Human Rights Commission"
+          },
+          {
+            "label": "Sole-parent Jobseeker abatement (earnings trap)",
+            "value": "30c/$ above $160/wk gross, then 70c/$ above $250/wk",
+            "source": "OECD, Tax and Benefit Policy Descriptions for New Zealand 2025"
+          },
+          {
+            "label": "Highest-NEET districts (youth left behind, deprived areas)",
+            "value": "Opotiki 42.8%; Kawerau 39.5% (vs Queenstown 6.9%)",
+            "source": "RNZ / Stats NZ regional NEET data, 2025-26"
+          },
+          {
+            "label": "Households reporting income 'not adequate', 2020/21",
+            "value": "608,300 of 1.86m households (~33%)",
+            "source": "Stats NZ Household Economic Survey (Household Wellbeing) 2020/21, via household-hardship-nz skill"
+          }
+        ],
+        "incidence": "The burden falls hardest on the young, on sole parents, and on single-earner families - disproportionately Maori and Pacific, and concentrated in deprived rural and provincial districts. Youth bear the sharpest edge: the 15-19 unemployment rate is 24.9% and NEET rates hit 42.8% in Opotiki and 39.5% in Kawerau, against 6.9% in Queenstown - a geography that maps onto existing deprivation. Young women carry a higher NEET rate (15.4%) than young men (13.5%), reflecting caregiving. Among the in-work poor, single-parent households (12.3%) and one-earner couples with children (13.5%) are most exposed, because a single wage stretched across dependants cannot clear the poverty line once housing is paid. The protective factor is a second earner - which sole parents structurally cannot supply, leaving them trapped between low-paid work, childcare costs, and steep benefit abatement.",
+        "narrative": "New Zealand's poverty story has historically leaned on the assumption that paid work is the exit door. The evidence breaks that assumption. AUT's NZ Work Research Institute, commissioned by Te Kahui Tika Tangata Human Rights Commission, found more than 50,000 working households living in poverty - an overall in-work poverty rate of 7% before housing costs that rises to 12.3% for single-parent households and 19.9% for multi-family households with only one earner. The single strongest protective factor is a second income: for couples with children, the in-work poverty rate falls from 13.5% to just 1.9% once a second adult works. This is the core mechanism - poverty is driven not by worklessness alone but by too little work spread across too many dependants, with wages that no longer outrun housing and living costs. Stats NZ's 2020/21 Household Economic Survey corroborates the squeeze: about a third of all households (608,300) reported their income was not adequate to meet everyday needs.\n\nThe youth dimension is the most acute deterioration on the current data. Stats NZ's March 2026 labour market release puts the 15-24 NEET rate at 14.4%, up from 13.3% in December 2025 and the highest in close to nine years. Youth unemployment sits at 14.4% overall - roughly three times the headline 5.3% - and an alarming 24.9% for 15-19-year-olds. Being NEET at the start of adulthood is the textbook entry ramp into long-run poverty: it scars lifetime earnings, delays skill formation, and erodes the work history needed to ever escape benefit dependence. The damage is geographically concentrated in already-deprived areas - NEET rates of 42.8% in Opotiki and 39.5% in Kawerau versus 6.9% in Queenstown - meaning the youth jobs collapse is compounding regional and ethnic disadvantage rather than spreading evenly.\n\nFor those who do work, the system can actively punish additional effort. Sole parents on Jobseeker Support face abatement of 30 cents in the dollar on gross earnings above $160/week, then a punishing 70 cents in the dollar above $250/week (OECD, 2025). Stacked on top of childcare costs, transport, and the loss of supplementary assistance, the effective marginal tax rate on a sole parent taking extra hours can approach or exceed 100% - the classic abatement trap. Because sole parents cannot add a second earner, they are simultaneously the group most exposed to in-work poverty and the group most penalised for trying to work their way out. The 2025 Working for Families change (threshold lifted to $44,900, abatement rate raised to 27.5%) does little to relax this trap and in fact steepens the clawback rate.\n\nThrough a poverty lens, work-and-youth is a powerful, structural driver precisely because it severs the assumed link between employment and adequacy. It hits at both ends of the working life: young people locked out before they start, and working parents locked in to in-work poverty by single-earner status, low wages relative to housing, and abatement design. Unlike a transient shock, NEET scarring and in-work poverty are self-reinforcing - they feed the material hardship and child-poverty figures downstream rather than relieving them.",
+        "contribution": "Very strong and structurally central. This driver matters more than its headline numbers suggest because it dismantles the main policy assumption - that employment is the exit from poverty. In-work poverty (50,000+ households, 7% overall, 12.3% for sole parents) shows wages no longer guarantee adequacy; the rising youth NEET rate (14.4%, highest in ~9 years) creates a pipeline of future poverty through earnings scarring; and abatement traps (up to 70c/$ for sole parents) actively penalise the work response. It is both a current cause of hardship (working families still poor) and a leading indicator of future poverty (NEET youth, single-earner families), and it concentrates on the same Maori, Pacific, sole-parent and deprived-region populations that bear every other dimension of New Zealand's poverty - making it a multiplier across the whole report rather than a standalone factor.",
+        "sources": [
+          "Stats NZ, Labour Market Statistics: March 2026 quarter (NEET 14.4%, youth unemployment 14.4%, unemployment 5.3%) - https://www.stats.govt.nz/information-releases/labour-market-statistics-march-2026-quarter/",
+          "AUT NZ Work Research Institute / Te Kahui Tika Tangata Human Rights Commission, 'In-work poverty in New Zealand' (50,000+ working households in poverty; 7% / 12.3% / 13.5% vs 1.9%) - https://www.hrc.co.nz/news/more-50000-working-households-new-zealand-live-poverty and https://tikatangata.org.nz/our-work/in-work-poverty",
+          "OECD, Tax and Benefit Policy Descriptions for New Zealand 2025 (sole-parent Jobseeker abatement 30c then 70c) - https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/income-support-redistribution-and-work-incentives/TaxBEN-New_Zealand-latest.pdf",
+          "RNZ, 'Alarming youth unemployment hits poorest communities hardest' (Opotiki 42.8%, Kawerau 39.5%, Queenstown 6.9%; regional NEET) - https://www.rnz.co.nz/news/national/596441/alarming-youth-unemployment-hits-poorest-communities-hardest",
+          "Stats NZ Household Economic Survey (Household Wellbeing) 2020/21, via nz-skills household-hardship-nz skill (income adequacy: 608,300 households 'income not adequate'; material hardship 126,200 households in hardship)",
+          "Beehive / NZTaxTools, Working for Families 2025-26 changes (abatement threshold $44,900, rate 27.5%) - https://nztax.tools/tax-insights/working-for-families-rates-2025-26/"
+        ]
+      },
+      "verdict": {
+        "confidence": 6,
+        "logic_ok": false,
+        "flagged": [
+          {
+            "stat": "Youth (15-24) unemployment rate = 14.4% AND youth (15-24) NEET rate = 14.4% (both March 2026)",
+            "issue": "Two distinct measures (unemployment = jobless seekers / labour force; NEET = not in employment/education/training / population) are reported as identical to the decimal. Strong red flag of a copy/conflation error - these almost never coincide exactly. At least one is likely mis-stated."
+          },
+          {
+            "stat": "In-work poverty: '50,000+ households' at a '7% in-work poverty rate'",
+            "issue": "Count/percentage consistency: 50,000 = 7% implies only ~715,000 working households in the denominator. NZ has roughly 1.3-1.4m households with someone in paid work, which at 7% would yield ~90,000-100,000, not 50,000. The count and rate do not obviously reconcile unless the study uses a narrow work-intensity denominator - needs the exact AUT/HRC definition to confirm; as presented they appear mismatched."
+          },
+          {
+            "stat": "15-19 unemployment 24.9% described as 'roughly 3x the headline 5.3%'",
+            "issue": "24.9 / 5.3 = 4.7x, i.e. closer to 5x, not 3x. The '3x' correctly describes the 14.4% overall youth rate (2.7x), but applying it to the 15-19 figure in the narrative is arithmetically loose."
+          },
+          {
+            "stat": "In-work poverty headline framed as BHC (7% before housing costs) while narrative argues poverty bites 'once housing is paid'",
+            "issue": "Not a logic violation but a framing caveat: only the BHC in-work rate is given. AHC in-work poverty would be HIGHER, so the 7%/50,000 headline understates the after-housing picture the narrative invokes. AHC>=BHC ordering is not breached because no lower AHC figure is claimed."
+          },
+          {
+            "stat": "Working for Families: 'abatement rate raised to 27.5%' said to 'steepen the clawback rate'",
+            "issue": "Internally consistent (27.5% > prior 27%), but unverified against source here. Direction logic holds."
+          }
+        ],
+        "note": "Only one stat is directly verifiable against the available NZ skills, and it checks out exactly: the household-hardship-nz income-adequacy command returns 608,300 households 'income not adequate' out of Total 1,864,300 (32.6%, ~33%) for HES 2020/21 - matching the chapter precisely. Internal-consistency checks: PASS - youth 15-24 rate (14.4%) lies between sub-rates 15-19 (24.9%) and 20-24 (12.2%); national NEET 14.4% lies between Opotiki 42.8% and Queenstown 6.9%; gender NEET overall 14.4% lies between men 13.5% and women 15.4%; national in-work rate 7% lies within subgroup spread 1.9%-19.9%; second-earner protective ordering (1.9% < 13.5%) holds; abatement steps up monotonically. FAIL flags: (1) youth unemployment rate and youth NEET rate both stated as exactly 14.4% - distinct measures, suspicious identical value; (2) 50,000 households vs 7% rate implies an implausibly small (~715k) working-household denominator. NEET/unemployment time-series claims ('highest in ~9 years', '8-year high'), the AUT/HRC in-work poverty subgroup rates, OECD abatement thresholds, and WFF parameters are external sources not queryable via the available skills and were assessed for internal consistency only, not independently sourced. logic_ok set false primarily on the duplicated-14.4% red flag and the count/rate mismatch. Relevant source file confirmed: household-hardship-nz skill, income-adequacy command."
+      }
+    },
+    {
+      "key": "equity",
+      "title": "Place, Region & Ethnic Inequity",
+      "findings": {
+        "dimension": "Place, Region & Ethnic Inequity",
+        "headline": "Poverty in New Zealand is not spread evenly \u2014 it is concentrated by postcode, by region and above all by ethnicity. Pacific (31.0%) and M\u0101ori (25.1%) children suffer material hardship at roughly double the all-child rate of 14.3%, disabled-household children at 27.5%, and Northland's child material-hardship rate (19.5%) is more than double Otago's (8.3%). Underneath sits a hardened geography of deprivation: M\u0101ori still make up the largest share of people in NZ's most-deprived NZDep2023 neighbourhoods (24.2% of all M\u0101ori live in the bottom decile), so where you are born and who you are predict hardship more than almost anything else.",
+        "key_stats": [
+          {
+            "label": "Pacific children in material hardship (lacking 6+ of 17 essentials), yr-end June 2025 \u2014 vs 14.3% for all children",
+            "value": "31.0% (54,400 children; 95% CI 27.0\u201335.0)",
+            "source": "Stats NZ Child Poverty Statistics YE June 2025, MEASC by ethnicity (via child-poverty-nz)"
+          },
+          {
+            "label": "M\u0101ori children in material hardship, YE June 2025 \u2014 1.8x the all-child rate",
+            "value": "25.1% (76,900 children; CI 22.3\u201327.9)",
+            "source": "Stats NZ Child Poverty Statistics YE June 2025, MEASC by ethnicity (via child-poverty-nz)"
+          },
+          {
+            "label": "European/P\u0101keh\u0101 children in material hardship (the low end of the ethnic gap)",
+            "value": "11.5% (86,000 children; CI 10.1\u201313.0)",
+            "source": "Stats NZ Child Poverty Statistics YE June 2025, MEASC by ethnicity (via child-poverty-nz)"
+          },
+          {
+            "label": "Pacific vs European children in SEVERE material hardship (lacking 9+ items) \u2014 a 3.2x gap",
+            "value": "Pacific 14.9% & M\u0101ori 12.2% vs European 4.7%",
+            "source": "Stats NZ Child Poverty Statistics YE June 2025, MEASI by ethnicity (via child-poverty-nz)"
+          },
+          {
+            "label": "Children in a disabled household in material hardship \u2014 vs 8.4% in non-disabled households",
+            "value": "27.5% (100,200 children; CI 24.7\u201330.3)",
+            "source": "Stats NZ Child Poverty Statistics YE June 2025, MEASC by disability (via child-poverty-nz)"
+          },
+          {
+            "label": "Highest vs lowest regional child material-hardship rate (Northland vs Otago) \u2014 a 2.3x spread",
+            "value": "Northland 19.5% vs Otago 8.3% (national 14.3%)",
+            "source": "Stats NZ Child Poverty Statistics YE June 2025, MEASC by region (via child-poverty-nz)"
+          },
+          {
+            "label": "Share of all M\u0101ori living in NZ's most-deprived NZDep2023 areas (decile 10), 2023 Census \u2014 down from 27.5% in 1991 but still far above population share",
+            "value": "24.2% of M\u0101ori in the single most-deprived decile",
+            "source": "Lacey et al. 2026, K\u014dtuitui: NZ Journal of Social Sciences (NZDep2023, 2023 Census)"
+          },
+          {
+            "label": "NZDep2023 small-area architecture: every SA1 ranked 1 (least) to 10 (most deprived), ~10% of areas per decile by design \u2014 deprivation is geographically fixed into neighbourhoods",
+            "value": "32,746 SA1 areas; decile 10 = 3,215 areas (9.8%)",
+            "source": "NZDep2023, University of Auckland / Stats NZ (via deprivation-nz stats)"
+          }
+        ],
+        "incidence": "Hardship is borne most heavily by Pacific peoples, M\u0101ori, disabled New Zealanders and households in the deprived North and provincial regions \u2014 and these axes compound. Pacific children (31.0% in material hardship) and M\u0101ori children (25.1%) carry roughly double the all-child rate (14.3%); in severe hardship the Pacific\u2013European gap widens to 3.2x (14.9% vs 4.7%). Disability is an equally sharp axis: 27.5% of children in a disabled household are in material hardship versus 8.4% in non-disabled households \u2014 and because disability is more common in M\u0101ori and Pacific and low-income households, the two over-representations stack. Geographically, the burden lands in Northland (19.5%), Manawat\u016b-Whanganui (15.9%), Tasman/Nelson/Marlborough/West Coast (15.0%) and Auckland (14.7%, the largest absolute count at 60,000 children), while Otago (8.3%) and Taranaki (11.4%) sit well below. Underneath the survey numbers, the 2023 Census NZDep index shows the same families clustered in the same neighbourhoods: 24.2% of all M\u0101ori live in the most-deprived decile-10 areas, and Pacific peoples are the group least likely to live in the least-deprived areas (Lacey et al. 2026).",
+        "narrative": "Place, region and ethnicity are not separate drivers of poverty so much as the lens through which every other driver \u2014 low income, housing cost, joblessness, ill-health \u2014 is focused onto particular people in particular postcodes. The Stats NZ Child Poverty Statistics for the year ended June 2025 make the ethnic concentration unmistakable: against an all-child material-hardship rate of 14.3% (169,300 children), Pacific children sit at 31.0% and M\u0101ori at 25.1%, while European children sit at 11.5%. The gap is not a rounding artefact \u2014 the confidence intervals do not overlap the national rate \u2014 and it widens, not narrows, as hardship deepens: in severe material hardship (lacking 9+ of 17 essentials), Pacific children are at 14.9% and M\u0101ori at 12.2% against 4.7% for European children, a more than three-fold disparity. Ethnicity, in other words, predicts not just whether a child goes without, but how severely.\\n\\nThe geographic pattern reinforces the same families' disadvantage. Northland's child material-hardship rate (19.5%) is 2.3 times Otago's (8.3%), and the high-hardship regions \u2014 Northland, Manawat\u016b-Whanganui, Bay of Plenty, Gisborne/Hawke's Bay \u2014 are precisely the provincial, high-M\u0101ori-population regions with thin labour markets and older housing stock. Auckland is the paradox: its rate (14.7%) is near the national average, but as home to 408,300 children it contains the single largest pool of hardship \u2014 60,000 children \u2014 much of it in South Auckland's Pacific communities. This is where the NZDep2023 small-area index matters. By construction it ranks all 32,746 SA1 neighbourhoods from decile 1 (least deprived) to decile 10 (most deprived), and that geography is sticky: the same suburbs top the deprivation tables census after census, anchoring school decile, GP access, housing quality and benefit dependency to a fixed map.\\n\\nThe ethnic and the spatial dimensions are the same phenomenon seen twice. Lacey et al. (2026, K\u014dtuitui), using the 2023 Census NZDep2023 data, find that 24.2% of all M\u0101ori live in the most-deprived decile-10 areas \u2014 down from 27.5% in 1991, but still vastly disproportionate \u2014 while Pacific peoples are the group least likely to live in the least-deprived areas. When a quarter of an ethnic group is concentrated into the bottom 10% of neighbourhoods, area-level deprivation becomes a near-perfect proxy for who that group is: the poor school, the damp rental, the food-insecure street and the M\u0101ori or Pacific family are the same data point. Disability then layers a third axis on top \u2014 27.5% material hardship for children in disabled households versus 8.4% otherwise \u2014 and because disability correlates with both low income and M\u0101ori/Pacific ethnicity, the over-representations multiply rather than add.\\n\\nThrough a poverty lens, this driver is what converts macro disadvantage into lived hardship and makes it self-perpetuating. Concentration means deprivation compounds: a Pacific child in a decile-10 South Auckland neighbourhood faces not one risk but a stacked set \u2014 overcrowded housing, a lower-decile school, longer distances to healthcare, fewer local jobs and thinner family financial buffers \u2014 each reinforcing the others. It also entrenches poverty across generations, because the neighbourhood a child grows up in shapes their schooling, health and eventual earnings. And it sharply narrows where policy must act: closing the headline child-poverty gap is arithmetically impossible without closing the Pacific (31.0%), M\u0101ori (25.1%) and disabled-household (27.5%) gaps, since those groups account for a hugely disproportionate share of the 169,300 children in hardship.",
+        "contribution": "Very strong \u2014 this is less a standalone cause than the structural amplifier that determines who poverty actually falls on. It does not by itself create low income, but it concentrates and compounds every other driver onto Pacific peoples, M\u0101ori, disabled New Zealanders and the provincial North, producing hardship rates 2\u20133x the national average. Its severity is greatest at the deep end (the Pacific\u2013European severe-hardship gap is 3.2x, wider than the overall gap), and its persistence is reinforced by the fixed geography of NZDep deprivation, which makes the disadvantage intergenerational. Because Pacific, M\u0101ori and disabled-household children make up a disproportionate share of all 169,300 children in material hardship, no credible reduction in NZ's baseline poverty is possible without directly closing these place-, region- and ethnicity-based gaps.",
+        "sources": [
+          "Stats NZ \u2014 Child Poverty Statistics: Year ended June 2025 (CSV release), material hardship (MEASC), BHC<50% (MEASA) and severe material hardship (MEASI) breakdowns by ethnicity, region and disability \u2014 accessed via the child-poverty-nz MCP skill: https://www.stats.govt.nz/large-datasets/csv-files-for-download/",
+          "NZDep2023 Index of Socioeconomic Deprivation, University of Auckland / Stats NZ \u2014 national SA1 decile distribution (32,746 areas) via the deprivation-nz MCP skill: https://www.arcgis.com/home/item.html?id=d0caefba5f8f42d6918fc52faacec00b",
+          "Stats NZ \u2014 New Zealand Index of Socioeconomic Deprivation: 2023 Census: https://www.stats.govt.nz/information-releases/new-zealand-index-of-socioeconomic-deprivation-2023-census/",
+          "Lacey C. et al. (2026) \u2014 'The Distribution of Socioeconomic Deprivation Within the M\u0101ori and European Populations in Aotearoa New Zealand, 1991, 2001, and 2023', K\u014dtuitui: New Zealand Journal of Social Sciences Online (Royal Society Te Ap\u0101rangi): https://rsnz.onlinelibrary.wiley.com/doi/full/10.1002/kot2.70007",
+          "NZDep2023 Index of Socioeconomic Deprivation: Research Report / User's Manual, University of Otago (31 October 2024): https://www.otago.ac.nz/__data/assets/pdf_file/0026/593135/NZDep2023-Research-Report-31-October-2024.pdf"
+        ]
+      },
+      "verdict": {
+        "confidence": 9,
+        "logic_ok": true,
+        "flagged": [
+          {
+            "stat": "24.2% of all M\u0101ori live in NZDep2023 decile-10 (most-deprived), down from 27.5% in 1991 \u2014 Lacey et al. 2026, K\u014dtuitui",
+            "issue": "UNVERIFIABLE with available skills, not a contradiction. The deprivation-nz skill is explicitly AREA-LEVEL only (SA1/SA2 deciles + population), not person-by-ethnicity. The 24.2% M\u0101ori-in-decile-10 figure and the 1991 (27.5%) historical comparison come from an external paper (Lacey et al. 2026) and cannot be cross-checked against the skill data. Flagged for external sourcing dependency only."
+          },
+          {
+            "stat": "Disabled-household children 27.5% (100,200) vs non-disabled-household 8.4%",
+            "issue": "CORRECT but note: skill also reports a distinct 'disabled children' rate of 26.9% (DISD01). Chapter correctly uses the matched HOUSEHOLD pair (DISH01 27.5% vs DISH02 8.4%), so the comparison is internally consistent; flagged only to confirm the right pairing was used and not mixed with the 26.9% child-level figure."
+          },
+          {
+            "stat": "M\u0101ori 25.1% material hardship = '1.8x the all-child rate' / 'roughly double'",
+            "issue": "25.1/14.3 = 1.76x, rounds to 1.8x (stated correctly). 'Roughly double' is loose for 1.76x but defensible. Pacific 31.0/14.3 = 2.17x is genuinely 'roughly double'. No error, minor rhetorical rounding."
+          }
+        ],
+        "note": "Every internally-checkable figure matches Stats NZ Child Poverty YE June 2025 (via child-poverty-nz) and NZDep2023 (via deprivation-nz) EXACTLY: national MEASC 14.3%/169.3k; Pacific 31.0%/54.4k CI 27-35; M\u0101ori 25.1%/76.9k CI 22.3-27.9; European 11.5%/86.0k CI 10.1-13.0; severe MEASI Pacific 14.9% / M\u0101ori 12.2% / European 4.7%; disabled-household 27.5%/100.2k vs 8.4%; Northland 19.5%/9.5k, Otago 8.3%, Auckland 14.7%/60.0k pop 408.3k, Manawat\u016b-Whanganui 15.9%, Tasman/Nelson/Marl/WC 15.0%, Taranaki 11.4%; NZDep 32,746 SA1, decile-10 = 3,215 (9.8%). LOGIC CHECKS ALL PASS: severe<=material for every ethnicity (4.7<=11.5, 12.2<=25.1, 14.9<=31.0) and national (6.0<=14.3); sub-group rates plausible vs national with non-overlapping CIs for Pacific/M\u0101ori; ratios accurate (Pacific 2.17x~'double', severe gap 14.9/4.7=3.17x~'3.2x', Northland/Otago 2.35x~'2.3x'); decile design ~10% confirmed (9.8%). No before/after-housing-cost claims in this chapter so AHC>=BHC not applicable. Confidence 9: all skill-checkable numbers verified clean; the only unverifiable items are externally-sourced Lacey et al. 2026 NZDep-by-ethnicity figures outside the skill's area-level scope."
+      }
+    },
+    {
+      "key": "hardship",
+      "title": "Material Hardship, Food & Energy",
+      "findings": {
+        "dimension": "Material Hardship, Food & Energy",
+        "headline": "Material hardship is poverty made physical \u2014 and in 2025 it is getting worse. 169,300 New Zealand children (14.3%) now live in households going without six or more of 17 basic essentials, up from 158,800 a year earlier and the third straight annual rise; 71,000 (6.0%) are in severe hardship, going without nine or more. One in three households experienced food insecurity in the past year, the Salvation Army handed out 7% more food parcels than 2024 and nearly 50% more than 2019, and roughly 30% of households face energy hardship. Hardship lands hardest on Pacific (31.0%) and M\u0101ori (25.1%) children, sole-parent and benefit-reliant families.",
+        "key_stats": [
+          {
+            "label": "Children in material hardship (DEP-17, lacking 6+ of 17 essentials), year ended June 2025",
+            "value": "14.3% \u2014 169,300 children (95% CI 13.1\u201315.5%), up 10,500 on 2024 and a third consecutive annual rise from the 2022 low of 10.6%",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (child-poverty-nz skill, MEASC)"
+          },
+          {
+            "label": "Children in severe material hardship (DEP-17, lacking 9+ of 17 essentials), 2025",
+            "value": "6.0% \u2014 71,000 children (95% CI 5.3\u20136.7%), up 6,900 on 2024",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (child-poverty-nz skill, MEASI)"
+          },
+          {
+            "label": "Material hardship by ethnicity (children), 2025",
+            "value": "Pacific 31.0% (54,400 children); M\u0101ori 25.1% (76,900); European 11.5% (86,000); Asian 5.9% \u2014 Pacific and M\u0101ori rates roughly 2x the all-children rate",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (child-poverty-nz skill, MEASC by ethnicity)"
+          },
+          {
+            "label": "Children in food-insecure homes (food ran out sometimes/often)",
+            "value": "27% of children, up from 21.3% \u2014 54.8% of Pacific children and 34.3% of M\u0101ori children in homes not getting enough food",
+            "source": "NZ Health Survey 2023/24, reported by RNZ and The Salvation Army"
+          },
+          {
+            "label": "Household food insecurity, 2025",
+            "value": "1 in 3 households experienced some food insecurity in the past year; nearly 1 in 5 (18%) severe; ~48% of households with children food insecure; 70% of sole-parent households food insecure",
+            "source": "NZ Food Network, Hunger Monitor 2025 (March 2026)"
+          },
+          {
+            "label": "Salvation Army food parcels",
+            "value": "7% more food parcels distributed in 2025 than 2024 and almost 50% more than 2019; ~94,000 instances of food support to 35,000 households / 100,000+ people across 67 foodbanks",
+            "source": "The Salvation Army, State of the Nation 2026 'Foundations of Wellbeing'"
+          },
+          {
+            "label": "Energy hardship",
+            "value": "~30% of households face energy hardship (can't afford/access enough energy); ~1 in 5 struggled to pay power bills in the past year; April 2025 lines-charge rises added $10\u2013$25/month",
+            "source": "MBIE energy hardship insights; The Conversation / Scoop, July 2025"
+          },
+          {
+            "label": "Concentration of hardship (Child Poverty Monitor / MSD)",
+            "value": "Children in benefit-receiving households ~3.5x more likely to be in material hardship than in working households; sole-parent households ~3x two-parent; disabled households ~2x",
+            "source": "MSD / Child Poverty Monitor; Office of the Auditor-General, Child poverty 2025"
+          }
+        ],
+        "incidence": "Hardship is steeply unequal. Pacific children carry the highest rate at 31.0% (54,400 kids) and M\u0101ori at 25.1% (76,900) \u2014 each roughly double the 14.3% all-children rate \u2014 versus 11.5% for European and 5.9% for Asian children (Stats NZ 2025). Food insecurity tracks the same contours: 54.8% of Pacific and 34.3% of M\u0101ori children live in homes not getting enough food (NZ Health Survey 2023/24). Structurally, the people who bear this most are sole-parent families (70% food insecure; ~3x the hardship rate of two-parent homes), benefit-reliant households (~3.5x the hardship rate of working households), disabled people and households with a disabled member (~2x), and renters in cold, damp housing. Geographically the Salvation Army's 67 foodbanks and the Hunger Monitor show pressure nationwide, with high-deprivation areas and regions like Waikato acutely hit. These are overlapping vulnerabilities \u2014 a Pacific or M\u0101ori sole parent on a benefit in a rented home sits at the intersection of every risk factor.",
+        "narrative": "Material hardship is the dimension where poverty stops being an abstraction about income lines and becomes the lived texture of going without. The DEP-17 index measures exactly that: households that, because of cost, postpone the doctor, put up with feeling cold, cannot keep two pairs of good shoes, go without fresh fruit and vegetables, or cannot pay the power bill on time (Stats NZ). When a child is counted in the 169,300 in material hardship in 2025, it means their family is enforced-lacking at least six of these basics; for the 71,000 in severe hardship, at least nine. Crucially, the trend is the wrong way: after falling to a low of 10.6% (121,800 children) in 2022, the rate has climbed three years running to 14.3% \u2014 adding tens of thousands of children even as the wider economy recovered, because the cost-of-living shock in food, rent and energy outpaced incomes for those at the bottom (Stats NZ, Child poverty statistics Year ended June 2025).\n\nFood is the sharpest edge. The NZ Food Network's Hunger Monitor 2025 finds one in three households experienced food insecurity and nearly one in five severe food insecurity, with ~48% of households with children and 70% of sole-parent households affected. The NZ Health Survey puts 27% of children in homes where food ran out sometimes or often \u2014 rising to 54.8% of Pacific and 34.3% of M\u0101ori children. Demand on the charitable safety net confirms it: the Salvation Army distributed 7% more food parcels in 2025 than 2024 and nearly 50% more than in 2019, supporting over 100,000 people through 67 foodbanks (State of the Nation 2026). This is happening as the state safety net tightens \u2014 emergency food grant decline rates are reported up 60% over two years (The Spinoff, March 2026) \u2014 pushing more families onto charity rather than entitlements.\n\nEnergy hardship runs in parallel and compounds the rest. Around 30% of households cannot reliably afford or access enough energy, about one in five struggled to pay a power bill in the past year, and April 2025 lines-charge increases added $10\u2013$25 a month to bills (MBIE; The Conversation, July 2025). Energy poverty is insidious because it is partly hidden \u2014 families \"self-disconnect\" by sitting in the cold to save money, with direct consequences for the cold, damp, respiratory-illness burden that falls hardest on M\u0101ori, Pacific and low-income children. Food and energy are the two essentials a struggling household can flex in the short term; that flexibility is precisely what hardship looks like from the inside \u2014 skipping meals, switching off the heater, and postponing the doctor.\n\nThe structural story is that hardship is not randomly distributed but concentrated by income source and household type. Children in benefit-receiving households are about 3.5 times more likely to be in material hardship than those in working households, and sole-parent households roughly three times two-parent households (MSD / Child Poverty Monitor; Auditor-General 2025). Because benefit levels and the abatement settings have not kept pace with the real cost of food, rent and power, hardship has become the binding constraint that turns \"low income\" into daily deprivation \u2014 and the recent rise shows the system is currently failing to hold the floor.",
+        "contribution": "Very strong \u2014 this is the load-bearing, outcome-end driver of the whole poverty system. Income poverty (BHC/AHC low-income lines) measures who is at risk; material hardship measures who is actually going without, and it is the dimension that captures the human cost most directly. Two features make it especially powerful as a driver: first, it is rising (14.3% in 2025, up three years straight from a 10.6% low), so it is actively worsening NZ's baseline poverty challenge rather than easing; second, it sits downstream of and amplifies every other dimension \u2014 inadequate income, unaffordable housing, benefit reliance, and the food/energy price shock all converge into the lived reality of an empty fridge and a cold house. It also has direct second-round effects: cold homes drive child illness, food insecurity drives poor health and learning, locking in intergenerational disadvantage. Its heavy concentration in Pacific, M\u0101ori, sole-parent and benefit-reliant households means it is also the dimension where poverty is most unequally and inescapably distributed.",
+        "sources": [
+          "Stats NZ, Child poverty statistics: Year ended June 2025 \u2013 CSV (MEASC material hardship, MEASI severe, ethnicity breakdown), via child-poverty-nz skill: https://www.stats.govt.nz/assets/Uploads/Child-poverty-statistics/Child-poverty-statistics-Year-ended-June-2025/",
+          "NZ Food Network, Hunger Monitor 2025 (March 2026): https://www.nzfoodnetwork.org.nz/wp-content/uploads/2026/03/NZFN-Hunger-Monitor-2025-Digital.pdf",
+          "The Salvation Army NZ, State of the Nation 2026 'Foundations of Wellbeing \u2013 Poipoia te K\u0101kano': https://www.salvationarmy.org.nz/news/state-of-the-nation-2026-kiwi-families-under-growing-economic-pressure/",
+          "NZ Health Survey 2023/24 food insecurity, reported by RNZ: https://www.rnz.co.nz/news/country/573752/more-than-quarter-of-kids-struggling-for-food-study-finds",
+          "MBIE, Energy hardship insights, and The Conversation/Scoop (July 2025) 'Almost a third of NZ households face energy hardship': https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-hardship/ ; https://business.scoop.co.nz/2025/07/24/almost-a-third-of-nz-households-face-energy-hardship/",
+          "The Spinoff (March 2026) 'Emergency food grant decline rates up 60% in two years': https://thespinoff.co.nz/politics/04-03-2026/emergency-food-grant-decline-rates-up-60-in-two-years",
+          "Office of the Auditor-General, Child poverty (2025), Appendix 1 inequities in material hardship: https://oag.parliament.nz/2025/child-poverty/appendix1.htm ; MSD Priority 2 reducing child material hardship: https://www.msd.govt.nz/about-msd-and-our-work/child-wellbeing-and-poverty-reduction/"
+        ]
+      },
+      "verdict": {
+        "confidence": 8,
+        "logic_ok": true,
+        "flagged": [
+          {
+            "stat": "M\u0101ori material hardship 25.1% described as 'roughly 2x' / 'roughly double' the 14.3% all-children rate",
+            "issue": "25.1/14.3 = 1.75x, not 2x. Pacific (31.0% = 2.2x) genuinely is ~2x; M\u0101ori is closer to 1.8x. 'Roughly double' is generous for M\u0101ori. Not a logic failure, but a slight overstatement. Stats NZ figures themselves all verified correct."
+          },
+          {
+            "stat": "Food insecurity: '27% of children, up from 21.3%' (NZ Health Survey 2023/24) vs '54.8% Pacific / 34.3% M\u0101ori children'",
+            "issue": "Cannot verify against the child-poverty skill (not a Stats NZ CPRA figure). Time-basing is fuzzy: a 2023/24 survey figure sits beside what reads as a more recent 27% headline. Units also differ from the lead's 'one in three households' \u2014 children vs households should not be conflated. Internally non-contradictory but loosely sourced."
+          },
+          {
+            "stat": "NZ Food Network Hunger Monitor 2025 dated 'March 2026'; 1-in-3 households, 18% severe, 48% households-with-children, 70% sole-parent food insecure",
+            "issue": "Un-verifiable with available tools. Internal nesting is logically sound (severe 18% <= total 33%; 70% sole-parent >= 48% w/children >= 33% all). Source date (March 2026) post-dates the '2025' label \u2014 likely a release date, but worth confirming."
+          },
+          {
+            "stat": "Energy hardship ~30%; benefit 3.5x / sole-parent 3x / disabled 2x concentration multipliers; Salvation Army 94,000 instances / 35,000 households / 100,000+ people / 67 foodbanks",
+            "issue": "All un-verifiable via the Stats NZ child-poverty skill (MBIE / MSD / Salvation Army sources). Internally consistent where checkable (Sally Army ratios plausible; multipliers match incidence text). Flagged only as un-sourced-here, not as errors."
+          }
+        ],
+        "note": "All hard internal-consistency checks PASS. Verified against Stats NZ Child poverty statistics YE June 2025 (live skill data): material hardship 14.3%/169,300 (CI 13.1-15.5, +10,500 on 158,800), severe 6.0%/71,000 (CI 5.3-6.7, +6,900), 2022 low 10.6%/121,800, third consecutive rise (2022 10.6 -> 2023 12.6 -> 2024 13.5 -> 2025 14.3) -- ALL EXACT. Ethnicity exact: Pacific 31.0%/54,400; Maori 25.1%/76,900; European 11.5%/86,000; Asian 5.9%. Subset<=total holds (severe 71k<=mat 169k; 6.0%<=14.3%). Ethnic subgroup counts each <= national; summing >169.3 is expected (multi-ethnic overlap), not an error. Food-insecurity figures nest monotonically (18% severe <= 33% total <= 48% w-children <= 70% sole-parent). AHC<50% (17.8%) > BHC<50% (12.6%) general cross-check holds. Remaining flags are un-verifiable third-party stats (NZ Health Survey, Hunger Monitor, MBIE, MSD, Salvation Army) and one mild overstatement (Maori 'roughly double'). Confidence 8: Stats-NZ core is rock-solid; deductions only for non-Stats-NZ claims I could not independently confirm."
+      }
+    },
+    {
+      "key": "intergenerational",
+      "title": "Persistent & Intergenerational Poverty",
+      "findings": {
+        "dimension": "Persistent & Intergenerational Poverty",
+        "headline": "Poverty in New Zealand is not a passing state but a sticky one: a low-income family has a roughly two-in-three chance of still being poor the next year, 697,000 people (18%) were persistently disadvantaged across 2013-2018, and the burden concentrates hard onto disabled, Maori and Pacific children \u2014 turning childhood hardship into lifelong, heritable disadvantage.",
+        "key_stats": [
+          {
+            "label": "Persistently disadvantaged New Zealanders (across both 2013 and 2018)",
+            "value": "697,000 people \u2014 18% of the population",
+            "source": "NZ Productivity Commission, 'A Fair Chance for All: Breaking the cycle of persistent disadvantage', final report 2023 (Treasury)"
+          },
+          {
+            "label": "Year-to-year persistence of low income",
+            "value": "A family on low income one year is ~65% likely to remain on low income the next year",
+            "source": "NZ Productivity Commission / Treasury, 'A quantitative analysis of disadvantage and how it persists', July 2023"
+          },
+          {
+            "label": "Expected additional years on benefit",
+            "value": "Someone on a benefit today can expect ~12 more years on benefit before age 65",
+            "source": "NZ Productivity Commission / Treasury, 'A Fair Chance for All', 2023"
+          },
+          {
+            "label": "Disabled children in material hardship (DEP-17, 6+ of 17, MEASC)",
+            "value": "26.9% (31,900 of 118,400) vs 12.7% for non-disabled children",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (disability breakdown, MEASC)"
+          },
+          {
+            "label": "Children in a household with a disabled member, in material hardship",
+            "value": "27.5% (100,200 children) vs 8.4% in households with no disabled member \u2014 over 3x the rate",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (household disability breakdown, MEASC)"
+          },
+          {
+            "label": "Maori and Pacific children in material hardship",
+            "value": "Maori 25.1% (76,900); Pacific peoples 31.0% (54,400); vs European 11.5%",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (ethnicity breakdown, MEASC)"
+          },
+          {
+            "label": "Children in material hardship, national (latest)",
+            "value": "14.3% \u2014 169,300 children (up from a 10.6% low in 2022)",
+            "source": "Stats NZ, Child poverty statistics: Year ended June 2025 (MEASC national + trend)"
+          },
+          {
+            "label": "Long-run health legacy of childhood poverty",
+            "value": "Children raised in poverty had markedly worse adult health by age 26-38 (heart disease risk, addiction, dental disease) \u2014 the independent income effect is modest but real",
+            "source": "Dunedin Multidisciplinary Health & Development Study; Gibb/Fergusson 30-year Christchurch Health & Development Study (ScienceDirect 2012)"
+          }
+        ],
+        "incidence": "Persistent and heritable poverty falls overwhelmingly on a small set of overlapping groups. Disabled children carry the single heaviest load: 26.9% are in material hardship versus 12.7% of non-disabled children, and children in any household containing a disabled person face a 27.5% hardship rate \u2014 more than triple the 8.4% in disability-free households (Stats NZ, Yr-end June 2025). Severe hardship for these children is almost four times higher. Ethnicity compounds it: Pacific children (31.0%) and Maori children (25.1%) sit at roughly double to triple the European rate (11.5%). The Productivity Commission found persistent disadvantage concentrated among beneficiaries, people without qualifications, sole-parent families, Maori and Pacific peoples, and disabled people \u2014 the same households, year after year, often across generations. The 'left out' (social exclusion, 337,000) and 'income poor' (283,000) forms are the most common.",
+        "narrative": "Most New Zealanders move in and out of low income, but a hard core do not. Treasury's quantitative work for the Productivity Commission's 'A Fair Chance for All' inquiry found that a family on low income in one year has roughly a 65% chance of still being on low income the next \u2014 poverty is recurrent and self-reproducing, not random. Across the two snapshot years 2013 and 2018, 697,000 people (18% of the population) were persistently disadvantaged on at least one domain, and someone on a benefit today can expect about 12 more years on benefit before they reach 65. This is the engine of the baseline poverty problem: it converts a temporary income shock into a multi-year, and often lifelong, condition.\\n\\nThe transmission channel that matters most for a poverty report is disability \u2014 and it runs in both directions, which is why it is so corrosive. Households with a disabled member face higher costs and lower earning capacity (median disposable income about $45,693 versus $56,485 for households with no disabled people, per Stats NZ analysis), so disability drives poverty. But poverty also drives disability and ill-health: children growing up materially deprived are hospitalised more, treated later, and \u2014 as the Dunedin and Christchurch longitudinal studies show \u2014 carry measurably worse adult health (cardiovascular risk, addiction, dental disease) decades later. The result is a closed loop in which 27.5% of children in disabled households are in hardship, and that hardship seeds the next generation's poor health and impaired earning power.\\n\\nThe intergenerational mechanism is broader than health alone. The longitudinal NZ evidence (Gibb & Fergusson's 30-year Christchurch study) finds that higher childhood family income is associated with declining adult disadvantage, though the independent income effect is modest once parental qualifications, home environment and behaviour are accounted for. In other words, money matters \u2014 but it travels bundled with everything money buys: stable housing, education, networks and health. Persistent-disadvantage households tend to lack all of these at once, so a child inherits not one disadvantage but a correlated stack of them. That is why the same ethnic and disability gaps reappear generation after generation rather than washing out.\\n\\nThe trend makes the persistence problem worse, not better. Child material hardship fell to a 10.6% low in 2022 but has climbed back to 14.3% (169,300 children) in the year to June 2025 (Stats NZ) \u2014 meaning more children are now entering the deprivation that the persistence data says they are likely to stay in. Because hardship is recurrent and concentrated, each year the rate rises does not just add new poor children; it deepens an existing pool whose members have a ~65% chance of still being there next year and whose children are statistically likely to inherit the same starting line.",
+        "contribution": "Very strong \u2014 this is arguably the structural backbone of New Zealand's baseline poverty challenge. Persistence is what turns the other drivers (low income, housing cost, disability cost) from episodic hardship into a durable, self-reproducing condition: a ~65% year-to-year low-income persistence rate and ~12 expected additional years on benefit mean exits are slow and rare. The intergenerational channel \u2014 especially the disability-health-poverty loop, where 27.5% of children in disabled households are in hardship and childhood deprivation predicts worse adult health and earnings \u2014 ensures the same Maori, Pacific, sole-parent and disabled households stay poor across decades and pass disadvantage to their children. It does not create poverty on its own, but it is the multiplier that makes poverty New Zealand's standing baseline rather than a transient state.",
+        "sources": [
+          "Stats NZ \u2014 Child poverty statistics: Year ended June 2025 (national, ethnicity and disability breakdowns, MEASC/MEASI; trend 2013-2025): https://www.stats.govt.nz/",
+          "NZ Productivity Commission / The Treasury \u2014 'A Fair Chance for All: Breaking the cycle of persistent disadvantage', final report June 2023: https://www.treasury.govt.nz/publications/final-report-fair-chance-all-breaking-cycle-persistent-disadvantage",
+          "NZ Productivity Commission / The Treasury \u2014 'A quantitative analysis of disadvantage and how it persists', July 2023: https://www.treasury.govt.nz/sites/default/files/2024-05/pc-inq-fcfa-afcfa-quantitative-report-final-july-2023.pdf",
+          "Gibb, Fergusson & Horwood \u2014 'Childhood family income and life outcomes in adulthood: Findings from a 30-year longitudinal study in New Zealand' (Christchurch Health & Development Study), Social Science & Medicine 2012: https://www.sciencedirect.com/science/article/abs/pii/S027795361200202X",
+          "Whaikaha \u2014 Ministry of Disabled People: 'Disabled children still more likely to live in material hardship' and disabled-household income figures: https://www.whaikaha.govt.nz/news/news/disabled-children-still-more-likely-to-live-in-material-hardship",
+          "Office of the Auditor-General \u2014 Child poverty: Inequities in the rates of material hardship (2025): https://oag.parliament.nz/2025/child-poverty",
+          "RNZ \u2014 'One in seven New Zealand children living in hardship, new data shows': https://www.rnz.co.nz/news/national/588006/"
+        ]
+      },
+      "verdict": {
+        "confidence": 7,
+        "logic_ok": false,
+        "flagged": [
+          {
+            "stat": "697,000 people \u2014 18% of the population (persistently disadvantaged)",
+            "issue": "Count/percentage mismatch against the stated base. 697,000 is ~14.2% of NZ's ~4.9M 2018 population; 18% implies a base of ~3.87M. The 18% comes from the Productivity Commission's restricted IDI analytical cohort (which excludes young children, recent migrants, etc.), NOT the whole population. Labelling it '18% of the population' is internally inconsistent and misleading \u2014 18% and 'of the population' cannot both be true."
+          },
+          {
+            "stat": "Severe hardship for disabled children 'almost four times higher'",
+            "issue": "Ambiguous framing risks a subset>total error. Severe hardship is a SUBSET of material hardship (26.9% for disabled children), so it must be <=26.9%. The 4x is only valid as a RATIO vs the non-disabled severe-hardship base, not as 4x the disabled material rate. As written it's defensible but should state the comparator explicitly to avoid implying ~quadruple of 26.9%."
+          },
+          {
+            "stat": "Children in disabled-member household 27.5% = 100,200 vs disabled children 26.9% = 31,900 of 118,400",
+            "issue": "Two different denominators presented near each other. 100,200/0.275 implies ~364,000 children in households with a disabled member, while the DEP-17 disabled-child measure has only 118,400 disabled children. These are genuinely different populations (household-member vs child-level), so not a contradiction, but the juxtaposition invites a false subset reading and should be clearly distinguished."
+          },
+          {
+            "stat": "After-housing-cost vs before-housing-cost poverty ordering",
+            "issue": "Not testable / N/A: the chapter reports material-hardship (DEP-17) rates, not a BHC/AHC income-poverty pair, so the AHC>=BHC ordering check cannot be verified from the provided text."
+          }
+        ],
+        "note": "Most numeric checks pass: 31,900/118,400=26.9% exact; weighted disabled(26.9%,~10% share)+non-disabled(12.7%) reconstructs national 14.3%; ethnic rates straddle national rate sensibly; severe<material as subset; 'left out' 337k and 'income poor' 283k both < 697k total; 2022 low 10.6% rising to 14.3% trend is consistent; disabled-household median income $45,693 vs $56,485 (~19% lower) plausible. logic_ok=false solely because '697,000 = 18% of the population' is an internally inconsistent count-vs-base claim (true figure ~14.2% of population; 18% is of a restricted cohort). Sourcing (Productivity Commission/Treasury 'A Fair Chance for All' 2023, Stats NZ child poverty Yr-end June 2025, Dunedin/Christchurch longitudinal studies) is appropriate but not independently re-verified here; the June 2025 dated figures should be confirmed against the actual Stats NZ release."
+      }
+    }
+  ],
+  "solutions": [
+    {
+      "lever": "Income support adequacy and indexation: lift main-benefit and Working for Families (WFF) base rates toward the WEAG \"adequate participation\" income standard, restore wage-indexation of benefits, and unfreeze/raise WFF abatement thresholds.",
+      "mechanism": "Most poor NZ children are in households whose disposable income sits below the poverty line. Benefits and WFF are the single biggest dial central government directly controls over those households' incomes. Raising the cash floor mechanically lifts families up and over the after-housing-cost (AHC) line and reduces material hardship (fewer of the 17 DEP essentials go unmet). Indexation choice sets the trajectory: wage-indexation keeps benefits rising with community living standards (so adequacy holds), while CPI-indexation lets benefits drift down relative to wages and the moving poverty line each year. WFF abatement thresholds determine how fast support claws back as a low earner's wages rise; a frozen threshold ($42,700 unindexed 2018-2025) is a stealth real cut to working families via fiscal drag. Because the poverty line itself moves with median income, sustained reductions require benefits to keep pace with wages, not just prices.",
+      "evidence": "NZ 2018-2022 natural experiment plus MSD evaluation and WEAG; see est_impact field",
+      "est_impact": "High and well-evidenced on the income (AHC/BHC) measures, moderate-to-high on material hardship. The 2018-2022 NZ episode shows a package of benefit + WFF increases moved the anchored AHC child rate by roughly 8 percentage points (~85,000 children) over four years. A serious adequacy package today - closing a meaningful share of the WEAG gap plus restoring wage-indexation - could plausibly pull tens of thousands of children back below the AHC line and reverse the current upward drift, though the exact figure depends on scale and on housing costs (which currently push ~62,000 extra children into poverty AHC vs BHC, capping how far income alone reaches). Indexation is the highest-leverage sub-component: it is near-costless to legislate and determines whether any one-off increase is permanent or erodes within a few years. Hardship effects lag income effects because some essentials (housing, energy, debt) are sticky.",
+      "tradeoffs": "Cost is the binding constraint: Treasury costed the 2025 benefit/WFF package at ~$1.2bn/year, and fully implementing WEAG-level adequacy (up to ~47% increases) was explicitly judged unaffordable to do at once - hence staged delivery. Wage-indexation is structurally more expensive than CPI over time and creates a permanent forward liability, which is why the 2024 government switched to CPI. Work-incentive concerns: large benefit rises narrow the gap to low-wage work; WEAG's answer was to pair higher benefits with higher abatement thresholds so part-time work still pays. Targeting tension: untargeted benefit rises also flow to households not in poverty, while WFF reaches working families but misses the very poorest beneficiary households unless the in-work tax credit is extended to them. Abatement/threshold design adds complexity. A real risk highlighted by the data: increases that are not indexed get clawed back by inflation and the moving median, so one-off boosts without indexation give temporary, expensive wins.",
+      "who_benefits": "Beneficiary families (406,128 on a main benefit) and low-wage working families with children. Disproportionately Maori (76,900 children in hardship, 25.1%), Pacific (54,400, 31.0%), sole-parent and disabled-household children (26.9%), who are over-represented among benefit recipients - so adequacy is also an equity lever. Restoring wage-indexation protects all current and future recipients; unfreezing WFF thresholds benefits the >50,000 in-work-poor households and those just above minimum wage facing fiscal drag.",
+      "cost": "High recurrent fiscal cost for rate increases (order $1bn+/year per WEAG-style step, Treasury), but indexation reform itself is legislatively cheap - the cost is the compounding future liability, not an upfront outlay. Best value-for-money component is wage-indexation plus targeted WFF threshold/in-work credit increases rather than broad untargeted benefit hikes.",
+      "leverage": 8,
+      "sources": [
+        "Stats NZ, Child poverty statistics: Year ended June 2025 (MEASA BHC<50% and MEASB anchored AHC<50% trends 2007-2025) - via nz-skills child-poverty-nz: https://www.stats.govt.nz/assets/Uploads/Child-poverty-statistics/Child-poverty-statistics-Year-ended-June-2025/",
+        "Welfare Expert Advisory Group, Whakamana Tangata (2019) - Recommendations and 'Immediate steps towards adequacy': https://www.weag.govt.nz/weag-report/whakamana-tangata/achieving-security-requires-adequate-income/recommendations-key-and-detailed/",
+        "MSD, 'The Families Package and 2020-2022 income support reforms' (2022 update): https://www.msd.govt.nz/documents/about-msd-and-our-work/publications-resources/evaluation/families-package-reports/the-families-package-and-2020-2022-income-support-reforms.pdf",
+        "Treasury, Regulatory Impact Assessment: Families Package (~88,000 children / ~48% BHC reduction projection): https://www.treasury.govt.nz/publications/risa/regulatory-impact-assessment-families-package",
+        "Work and Income, Changes to benefit and payment rates from 1 April 2026 (Jobseeker $372.55; CPI 3.11% indexation): https://www.workandincome.govt.nz/about-work-and-income/news/2026/changes-to-benefit-and-payment-rates-from-1-april-2026.html",
+        "Regulation.govt.nz, Regulatory Impact Statement: Increase to the Working for Families abatement threshold ($42,700->$44,900, 27%->27.5%, frozen since 2018): https://www.regulation.govt.nz/assets/RIS-Documents/Regulatory-Impact-Statement-Increase-to-the-Working-for-Families-abatement-threshold.pdf",
+        "IRD, Increase to the in-work tax credit information release ($97->$147 temporary, petrol-conditional): https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2026/iwtc.pdf",
+        "MSD, sar-indexing-main-benefits-to-inflation RIS (2024 wage->CPI indexation switch): https://www.msd.govt.nz/documents/about-msd-and-our-work/publications-resources/regulatory-impact-statements/sar-indexing-main-benefits-to-inflation.docx",
+        "CPAG NZ, Policy Brief: Benefit Adequacy: https://www.cpag.org.nz/policy-briefs/benefit-adequacy",
+        "UK CPAG / UKMOD microsimulation on most cost-effective child-poverty transfers (international comparator): https://cpag.org.uk/news/new-costings-scrapping-two-child-limit-far-most-cost-effective-way-cut-child-poverty"
+      ]
+    },
+    {
+      "lever": "Public & affordable housing \u2014 expand income-related-rent social housing (Kainga Ora + Community Housing Providers), clear the register, modernise the Accommodation Supplement, and scale Housing First for homelessness",
+      "mechanism": "Housing costs are the proximate engine that converts low income into measured hardship in NZ: 148,700 children are below the 50% BHC line but 210,600 are below the AHC line \u2014 rent and mortgages alone push ~61,900 more children into poverty, a 42% larger child-poverty population created by housing (Stats NZ child-poverty release, YE June 2025, via child-poverty-nz). Social housing attacks this directly because income-related rent (IRR) caps a tenant's housing cost at 25% of income (rising to 30% from April 2027), with the Income-Related Rent Subsidy paying the gap to market rent (HUD). Moving a family from the private market (where one in three low-income households spend 40%+ of income on housing) into IRR housing can lift weekly residual income by $100-200+, mechanically moving households across the AHC poverty line and out of material hardship in a way income transfers struggle to match dollar-for-dollar. Accommodation Supplement reform matters because it is the marginal renter subsidy (~$85m/week, $4.4bn/yr to ~770,000 recipients per HUD via public-housing-nz; ~$2.34bn/yr to 364,000 on the headline AS line) but its maxima are frozen at 2016 rents, so it under-covers actual rents and a large share capitalises into landlord rents rather than lifting families clear of hardship. Housing First ends homelessness for the most deprived by providing permanent tenancy first, then wraparound support, breaking the most extreme form of housing-driven hardship.",
+      "evidence": "NZ evidence: (1) The BHC-vs-AHC gap (+5.2pp / ~61,900 children) is itself the strongest natural-experiment-style evidence that housing cost, not just low income, drives NZ child poverty (Stats NZ, YE June 2025). (2) Housing First NZ \u2014 IDI-linked evaluation of a 357-person cohort found improved outcomes across health, justice, income and welfare five years after housing, including ~+38% income and large mental-health gains; the model has housed ~1,000 rough sleepers in Auckland/Hamilton (He Kainga Oranga / University of Otago; Springer 2026 five-year women's-cohort study). (3) Register fell to 19,431 applicants at 30 Sep 2025, down 11.5% y/y (MSD Housing Register) \u2014 showing the queue is responsive but still very large. (4) The govt's own 2025 reform reallocates ~$375-387m of IRR savings (84,000 KO households' rent rising from 25% to 30% of income from April 2027) into a $10-30/week AS uplift for private renters (interest.co.nz; HUD; Social Assistance Legislation Amendment Bill 167-1). International evidence: Housing First has the strongest RCT evidence base of any homelessness intervention (Canada At Home/Chez Soi, US, EU) \u2014 ~80%+ housing-retention and offsetting health/justice savings. International housing-economics consensus (incl. IZA/OECD work) is that demand-side rent subsidies in supply-constrained markets partly inflate rents, supporting the NZ critique of AS as landlord-capturing. Uncertainty: build is slow and capital-heavy \u2014 Kainga Ora is funded for only ~2,650 net additional homes to 2026 plus 1,500 CHP homes, far below the ~19,431-household register, so impact is real but rate-limited by construction.",
+      "est_impact": "High and the most direct of any lever, but back-loaded. Because housing costs create ~61,900 children's worth of poverty (the AHC-BHC gap) and ~62,000 extra children on the strict line / up to 354,200 on the 60% AHC line (Stats NZ), each household shifted from market rent to IRR housing reliably removes that household from AHC poverty. Illustratively, allocating ~19,431 register households to IRR housing (averaging ~1.5 children each among families) could lift on the order of 20,000-40,000 children clear of AHC poverty and materially cut hardship among them \u2014 but only as stock is built/acquired over many years (current funded pipeline ~4,000-5,000 homes is roughly a fifth to a quarter of the register). Modernising AS maxima (frozen since 2016/based on 2016 rents) would give immediate relief to a slice of ~364,000-770,000 recipient households, though with leakage to landlords. Housing First can end chronic homelessness for the few thousand most-deprived with outsized wellbeing returns. Net: the highest-ceiling lever on the hardship baseline, capable of structurally cutting the 169,300 in material hardship and 210,600 in AHC poverty, but with a multi-year lag versus an income-transfer lever that moves the line next quarter.",
+      "tradeoffs": "Capital-intensive and slow: building/acquiring 19,000+ homes costs roughly $8-12bn+ at NZ build costs and takes 5-10+ years, versus immediate but partly-leaking AS spend. Fiscal tension: the 2025 reform raises 84,000 existing social tenants' rents (25%\u219230% of income, avg +$31/wk) to fund private-renter AS \u2014 helping horizontal equity and the register but pushing some current social tenants closer to hardship, a regressive edge flagged by critics (RNZ). Demand-side AS top-ups risk capitalising into rents in supply-constrained markets, blunting the relief. Housing First is cheap per success but small-scale and needs sustained tenancy support funding. Crowding/quality and construction-sector capacity constrain pace. Opportunity cost: every dollar in capital is a dollar not in Working for Families or benefit increases that would cut poverty faster, if shallower. Concentrated benefit to Maori, Pacific, sole-parent and disabled households (who dominate both the register and the most-deprived NZDep2023 deciles) makes it strongly equity-targeted.",
+      "leverage": 8,
+      "who_benefits": "The most disadvantaged and most housing-stressed: the ~19,431 households on the register; Maori and Pacific families (over-represented on the register and in the bottom NZDep2023 decile \u2014 24.2% of Maori in the most-deprived decile), sole-parent and benefit-reliant households, and disabled-household children (27.5% in material hardship). IRR housing and Housing First disproportionately reach severe-hardship and homeless populations. AS modernisation spreads thinner benefit across ~364,000+ private-renter households. Children in food-insecure (27%) and energy-poor (~30%) homes gain most because capping rent frees residual income for food and power.",
+      "cost": "Very high capital but high-return where it lands. Clearing the register via new IRR stock is order ~$8-12bn+ capital over a decade (NZ build costs ~$400-600k/home). Operating: IRRS already ~$2bn+/yr; the 2025 reform nets ~$375-387m of savings from raising social rents, partly recycled into a $10-30/wk AS uplift. AS itself is ~$85m/week / ~$4.4bn/yr (HUD via public-housing-nz; headline AS line ~$2.34bn to 364,000). Housing First is comparatively cheap (~$20-25k/person/yr support) and partly self-funding via reduced health/justice/emergency-housing costs. Net fiscal cost is dominated by the build programme; subsidy reform is roughly cost-neutral by design.",
+      "sources": [
+        "Stats NZ child poverty statistics, year ended June 2025 (via nz-skills child-poverty-nz): MEASA 12.6%/148,700, MEASB 17.8%/210,600, MEASC 14.3%/169,300, MEASI 6.0%/71,000",
+        "Ministry of Housing and Urban Development, Accommodation Supplement recipients and weekly spend, Dec 2024 (via nz-skills public-housing-nz): 769,954 recipients, $84,896,188/week",
+        "MSD Housing Register, 30 Sep 2025: 19,431 applicants, down 11.5% y/y \u2014 https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/statistics/housing/housing-register.html",
+        "interest.co.nz, social housing rents to increase ~$31/wk avg from 2027, 84,000 KO households, 25%\u219230% of income, ~$387.5m savings, AS up $10-30/wk \u2014 https://www.interest.co.nz/property/138628/",
+        "HUD Income-related rent subsidy \u2014 https://www.hud.govt.nz/funding-and-support/income-related-rent-subsidy",
+        "Kainga Ora turnaround plan, ~2,650 net homes to 2026 + 1,500 CHP homes \u2014 https://nationalinfrastructure.govt.nz/2025/02/turnaround-plan-to-get-kainga-ora-back-on-track/",
+        "He Kainga Oranga / University of Otago, Housing First NZ five-year IDI evaluation (357-person cohort, ~+38% income) \u2014 https://www.healthyhousing.org.nz/our-research/past-research/ending-homelessness-new-zealand-housing-first ; Springer 2026 five-year women's cohort \u2014 https://link.springer.com/article/10.1186/s12982-026-01547-4",
+        "MSD Budget 2025 Accommodation Supplement changes fact sheet \u2014 https://www.msd.govt.nz/about-msd-and-our-work/newsroom/budget/2025/factsheets/changes-to-the-accommodation-supplement-through-budget-2025.html",
+        "The Conversation, 364,000 NZers rely on Accommodation Supplement / $2.34bn, maxima based on 2016 rents \u2014 https://theconversation.com/364-000-new-zealanders-rely-on-an-accommodation-supplement-but-these-3-flaws-need-fixing-227667",
+        "Social Assistance Legislation (Accommodation Supplement and Income-related Rent) Amendment Bill 167-1 (2025) \u2014 https://www.legislation.govt.nz/bill/government/2025/0167/latest/whole.html"
+      ]
+    },
+    {
+      "lever": "Work pathways & childcare: In-Work Tax Credit, ECE/FamilyBoost subsidies, sole-parent support, NEET youth training/apprenticeships, and fixing abatement traps",
+      "mechanism": "This lever attacks poverty through the labour market rather than the benefit core. Four channels: (1) In-Work Tax Credit (IWTC) and Working for Families (WFF) top up the earnings of working families, lifting net income above poverty lines without raising base wages; (2) ECE/childcare subsidies (FamilyBoost, the Childcare Subsidy) cut the price of work for parents, especially sole parents, so paid hours become financially worthwhile; (3) training and apprenticeship programmes (Apprenticeship Boost, He Poutama Rangatahi) move NEET youth into earning trajectories before long-term scarring sets in; (4) fixing abatement traps lowers the effective marginal tax rate (EMTR) so each extra hour of work actually raises disposable income. The theory: in-work poverty (50,000+ households) and youth exclusion (14.4% NEET) are best fixed by making work pay and reachable. NOTE the structural ceiling \u2014 MSD estimates ~40% of children in hardship are in families with no one able to work (sole parents of infants, disabled, caregivers), so work-based instruments by design cannot reach them.",
+      "evidence": "NZ EVIDENCE IS MIXED-TO-WEAK ON LEVERAGE. (a) IWTC/WFF: MSD/Treasury modelling credits WFF and Best Start with meaningful child-poverty reductions, but the IWTC is poorly targeted at hardship \u2014 Stats NZ shows material hardship still ROSE to 14.3%/169,300 children (year-end June 2025) despite an in-work economy, and the IWTC's eligibility excludes the ~40% of hardship children with no working parent (MSD, Budget 2025 Child Poverty Report). The Budget 2026 package (Beehive, 28 May 2026) lifts the WFF abatement threshold $42,700\u2192$44,900 and the rate 27%\u219227.5%, worth 'up to $23 a fortnight' near the threshold, plus a temporary $50/week IWTC top-up \u2014 modest and partly clawed back by income-testing Best Start above $79,000 (IRD tax policy). (b) FamilyBoost has FAILED on uptake: forecast up to 100,000 families/21,000 on the full rate, but only ~60,000 received any payment and (April data) only hundreds got the full $75/week (NZ Herald, 1News, July 2025). CPI data show no immediate fee relief; OECE reports some ECE providers RAISED underlying fees to capture the rebate, and the July 2025 expansion (rebate 25%\u219240%, income cap to $229,000) skews benefit to HIGHER-income families \u2014 weak anti-poverty targeting. (c) Abatement traps are real and severe: Treasury AN 25/01 finds 30% of single-parent families face EMTRs >50%, some >100%; interest.co.nz documents a 71.2% EMTR for a family near $60,000 \u2014 a structural disincentive that work-pays reforms only partly relieve. (d) NEET/apprenticeships: Apprenticeship Boost passed 50,000 apprentices and was made permanent (Budget 2024) but was CUT to first-year-only from Jan 2025; no published completion/retention/deadweight evaluation yet (MSD monitoring begins June 2025) \u2014 international evidence warns of high deadweight (subsidising hires that would have happened anyway). He Poutama Rangatahi shows promising wrap-around case studies but no rigorous impact evaluation. International evidence (OECD, UK) is clear that childcare-cost reduction lifts maternal/sole-parent employment, and active labour market programmes for disadvantaged youth work best when intensive and personalised \u2014 supporting the design but not guaranteeing NZ poverty-baseline movement.",
+      "est_impact": "MODEST and SLOW on the 169,300-child material-hardship baseline; somewhat better on the income lines (148,700 BHC / 210,600 AHC) for working families. The Budget 2026 WFF/IWTC tweaks shift income for families NEAR the abatement threshold but do little for the deepest hardship, which is concentrated in non-working, sole-parent, Pacific (31.0%), M\u0101ori (25.1%) and disabled (26.9%) households this lever structurally under-reaches (~40% of hardship children ineligible for IWTC, per MSD). Best estimate: this lever could plausibly move the AHC income line by low single-digit thousands of children over several years if abatement traps are genuinely fixed and ECE made effectively free for low earners, but on current settings (failed FamilyBoost uptake, IWTC excluding non-workers, apprenticeship cuts) the realised near-term impact on the hardship count is small \u2014 likely under ~5,000\u201310,000 children, and risks being swamped by the housing-cost driver (+61,900 children pushed under the line by rent/mortgage alone) and rising youth unemployment (14.4% NEET, 5.3% overall). High uncertainty.",
+      "tradeoffs": "(1) Targeting vs work incentives: the IWTC deliberately excludes non-working families to preserve a work incentive, which is exactly why it misses the deepest hardship \u2014 a values trade-off baked into the instrument. (2) FamilyBoost leakage: subsidies can be captured by ECE providers (fee rises) and skew to high-income families ($229,000 cap), so spend does not equal poverty reduction. (3) Fixing abatement traps is fiscally expensive and mechanically regressive at the margin \u2014 flattening EMTRs means either extending payments further up the income scale (cost, leakage) or cutting base support (harm). The Budget 2026 design pays for the threshold rise by income-testing Best Start \u2014 robbing one set of families to help another. (4) Apprenticeship/wage subsidies carry deadweight and substitution risk. (5) Childcare subsidies only pay off if jobs and hours exist \u2014 with unemployment at an 8-year high (5.3%) and youth NEET at 14.4%, the demand side is weak, blunting work-pathway leverage right now.",
+      "who_benefits": "Primarily WORKING low-to-middle-income families near the WFF abatement threshold (~$45,000), and dual/parent households who can take up paid hours if childcare is affordable. Sole parents benefit IF abatement traps and childcare costs are genuinely fixed (they face the worst EMTRs). NEET youth (15-24, 14.4% rate) benefit from training pathways. NOT well served: the ~40% of hardship children in non-working families, infants' sole parents, disabled-household children (26.9% hardship) \u2014 the very groups with 2-3x national hardship rates. FamilyBoost's design currently tilts benefit toward higher-income working families, not the poorest.",
+      "cost": "Moderate-to-high and already substantial. Budget 2026 WFF abatement-threshold rise + temporary $50/week IWTC top-up cost hundreds of millions (partly offset by income-testing Best Start). FamilyBoost is a multi-hundred-million programme with poor cost-effectiveness given low uptake/leakage. Apprenticeship Boost is a permanent line (now narrowed to first-year). Genuinely fixing abatement traps across the WFF/Accommodation Supplement/benefit stack is the expensive part \u2014 credible reform runs into the high hundreds of millions to low billions because it requires extending abatement ranges further up the income distribution. Cost per child lifted from hardship is HIGH relative to direct income transfers to the poorest, because much spend leaks to families above the hardship line or to providers.",
+      "leverage": 4,
+      "sources": [
+        "Stats NZ, Child poverty statistics: Year ended June 2025 (via nz-skills child-poverty-nz, MEASC ethnicity breakdown): all children 14.3%/169,300; Pacific 31.0%/54,400; M\u0101ori 25.1%/76,900; European 11.5%/86,000",
+        "Beehive.govt.nz, 'Increased support for families' (Budget 2026, 28 May 2026): WFF abatement threshold $42,700\u2192$44,900, rate 27%\u219227.5%, up to $23/fortnight; $50/week IWTC top-up from 1 April 2026 \u2014 https://www.beehive.govt.nz/release/increased-support-families",
+        "IRD tax policy, 'Increase to the in-work tax credit' & 'Ensuring FamilyBoost reaches more families' \u2014 https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2026/iwtc.pdf",
+        "NZ Herald, 'Government plans FamilyBoost changes after low uptake' (July 2025): ~60,000 of forecast 100,000 families paid; hundreds on full $75/week \u2014 https://www.nzherald.co.nz/nz/politics/government-plans-familyboost-changes-after-low-uptake-revealed/EW3P25VC4VCGBNJSUIMWZJUOKQ/",
+        "1News, 'Boost to Govt's flagship childcare rebates after uptake issues' (7 July 2025): rebate 25%\u219240%, income cap to $229,000 \u2014 https://www.1news.co.nz/2025/07/07/boost-to-govts-flagship-childcare-rebates-after-uptake-issues/",
+        "OECE, 'FamilyBoost Changes Benefit Higher Income Families' & 'ECE Options to Increase Uptake' \u2014 https://oece.nz/newsroom/press-releases/familyboost-changes-benefit-higher-income-families/",
+        "Treasury Analytical Note AN 25/01, 'Understanding Effective Marginal Tax Rates in NZ's Tax and Transfer System': 30% of single-parent families EMTR >50%, some >100% \u2014 https://www.treasury.govt.nz/publications/an/an-25-01",
+        "interest.co.nz, 'Trapped in the abatement web': 71.2% EMTR example near $60,000 \u2014 https://www.interest.co.nz/public-policy/134538",
+        "MSD / Budget 2025 Child Poverty Report: ~40% of children in hardship not eligible for in-work support; Best Start assessed as effective \u2014 https://budget.govt.nz/budget/pdfs/child-poverty-report/b25-child-poverty-report.pdf",
+        "MSD Apprenticeship Boost monitoring (permanent from Budget 2024; first-year only from Jan 2025; $500/month) \u2014 https://www.msd.govt.nz/about-msd-and-our-work/publications-resources/monitoring/apprenticeship-boost/index.html",
+        "Work and Income / Beehive, He Poutama Rangatahi \u2014 Youth Employment Pathways (NEET 15-24 wrap-around) \u2014 https://workandincome.govt.nz/providers/programmes-and-projects/he-poutama-rangatahi-youth-employment-pathways.html",
+        "Driver pack (provided): in-work poverty 50,000+ households / 7%; youth NEET 14.4% (March 2026); unemployment 5.3%; housing pushes +61,900 children under AHC line"
+      ]
+    },
+    {
+      "lever": "Direct services for children: free/healthy school lunches (Ka Ora, Ka Ako), school-cost relief, free GP visits for under-14s, and early-childhood intervention",
+      "mechanism": "These are non-cash, in-kind transfers and services that do not change a family's measured income, so they cannot move the income-poverty lines (MEASA BHC<50% = 148,700 children; MEASB AHC<50% anchored = 210,600 children). They work on the other side of the ledger: by removing specific costs from poor households' budgets (a daily lunch, GP fees, prescription co-pays, school donations/uniforms/devices) they free cash for other essentials, which can ease MATERIAL HARDSHIP (MEASC, lacking 6+ of 17 items = 169,300 children / 14.3%) and SEVERE hardship (MEASI = 71,000 / 6.0%) rather than the income measures. Lunches also directly relieve one of the DEP-17 deprivation items (children's food insecurity \u2014 Stats NZ-aligned indicator: 27% of children in food-insecure homes, 54.8% of Pacific and 34.3% of M\u0101ori children). The second mechanism is long-run: free healthcare and high-quality early intervention raise children's health, attendance and skills, attacking the intergenerational transmission that keeps a low-income family ~65% likely to stay poor the next year and leaves 697,000 New Zealanders persistently disadvantaged (Stats NZ / Treasury).",
+      "evidence": "NZ school lunches (Ka Ora, Ka Ako): serves ~244,144 students at 1,014 schools, ~25% of all school children (Ministry of Education, Jan 2025). A BMC Public Health / participatory Value-for-Investment analysis (Springer 2025, PMC12539167) judged the programme \"very good value for investment\" and warned its reach \"should not be cut\"; it cites a Canadian estimate that free school lunches return 2.5\u20137-fold on investment, and found a 14% mental-wellbeing and 16% physical-energy advantage for underserved \u0101konga vs underserved peers elsewhere. BUT the formal 2022 NZ impact evaluation found NO measurable lift in attendance across schools (Ministry of Education / Standard of Proof). Cost was cut ~$107m (about one-third, from ~$323m to ~$235m for 2025) via a $3-per-meal Alternative Provision Model, down from prior unit costs of $5.78\u2013$8.62; the Auditor-General opened an inquiry into that model in 2025 over quality/delivery problems (OAG 2025); funding is only secured to 2026, with Budget 2026 deciding 2027 (Beehive; CPAG). Free GP/prescriptions: extended to under-14s; 96% of practices opted in covering ~98% of under-13s, ~750,000 children benefiting (Health NZ; Beehive). Early intervention: the HighScope Perry Preschool RCT shows a 7\u201310% annual rate of return, with ~92% of upfront cost recovered through higher tax and lower transfers/crime, plus intergenerational gains (Heckman et al., NBER w16180; Heckman Equation).",
+      "est_impact": "Effect on the income-poverty baseline (MEASA/MEASB): essentially zero by construction \u2014 these services are not counted as income, so they do not reduce the 148,700 BHC or 210,600 AHC child counts. Effect on MATERIAL HARDSHIP (the relevant target, 169,300 children): real but modest and hard to isolate. A daily free lunch is worth roughly $3 x ~190 school days \u2248 $570/child/year of avoided cost, and directly relieves the food-insecurity deprivation item for the ~25% of children reached. Free GP visits remove a per-episode cost barrier for ~750,000 children. Plausibly these can shave a low single-digit number of percentage points off material-hardship rates among reached families at the margin, concentrated in food and health deprivation items \u2014 but there is no NZ evidence they move the headline hardship rate by a large amount, and the 2022 evaluation found no attendance effect. The biggest, best-evidenced returns (Perry-type early intervention) are long-run and intergenerational, not visible in the 2025 baseline. Honest verdict: a strong hardship-buffering and child-outcomes tool, not an income-poverty mover. Uncertainty is high; effect sizes on the national hardship count are unquantified in NZ data.",
+      "tradeoffs": "Universal-within-school design (lunches given to whole decile-eligible rolls) means leakage to non-poor children, but avoids stigma and the take-up failure that plagues targeted schemes \u2014 a deliberate trade of precision for coverage and dignity. The 2025 $107m cost-cut shows the central tension: cheaper delivery ($3 meals) preserved reach but triggered an Auditor-General inquiry over quality, waste and reliability (OAG 2025), so \"do it cheap\" can hollow out the benefit. Funding is fragile (secured only to 2026). Because none of these levers touch income, relying on them risks looking like action while the income/housing drivers that create the 210,600 AHC count go unaddressed \u2014 a substitution risk. Early intervention has the highest ROI but the longest payback (decades) and weakest political durability. Free GP visits can be undercut by non-fee barriers (transport, after-hours access, discrimination \u2014 per PMC decomposition study).",
+      "who_benefits": "Children in the ~25% of schools covered by lunches, weighted toward higher-deprivation rolls, so M\u0101ori (25.1% material hardship), Pacific (31.0%) and sole-parent/benefit-reliant families benefit most \u2014 exactly the groups at 2\u20133x the 14.3% national rate. Free under-14 GP visits and prescriptions benefit ~750,000 children near-universally, with the largest marginal gain for low-income and rural families who previously rationed care on cost. Disabled-household children (26.9% material hardship vs 12.7%) and food-insecure children (54.8% of Pacific, 34.3% of M\u0101ori) gain directly. Early intervention targets the most disadvantaged pre-schoolers, where the persistence/intergenerational burden (697,000 persistently disadvantaged) is heaviest.",
+      "cost": "School lunches ~$235m/yr for 2025 (post-cut), down from ~$323m, reaching ~244,000 students (~$960/student/yr). Free under-14 GP visits/prescriptions: ongoing Vote Health subsidy (hundreds of millions across ~750,000 children; exact line not separately costed in sources). High-quality early intervention is expensive per head (Perry ~US$17,759/child in 2006 dollars) but ~92% cost-recovered over the life-course. Overall: moderate, predictable, scalable spend with no benefit-system administration overhead.",
+      "leverage": 5.5,
+      "sources": [
+        "Stats NZ, Child poverty statistics: Year ended June 2025 (CSV) \u2014 via nz-skills child-poverty-nz skill: MEASA 12.6%/148,700; MEASB 17.8%/210,600; MEASC 14.3%/169,300; MEASI 6.0%/71,000",
+        "Ministry of Education, Ka Ora, Ka Ako Healthy School Lunches \u2014 funding & programme pages (244,144 students; 1,014 schools; $3 meal): https://www.education.govt.nz/education-professionals/schools-year-0-13/healthy-school-lunches/funding-ka-ora-ka-ako-healthy-school-lunches-programme",
+        "BMC Public Health / PMC, 'Free, healthy school lunches in New Zealand: A Value for Investment analysis', 2025: https://pmc.ncbi.nlm.nih.gov/articles/PMC12539167/",
+        "Standard of Proof / Ministry of Education impact evaluation (no attendance effect): https://www.standardofproof.nz/projects/impact-evaluation-of-ka-ora-ka-ako-new-zealand-healthy-school-lunch-programme/",
+        "Office of the Auditor-General, Inquiry into the Alternative Provision Model for Ka Ora, Ka Ako, 2025: https://oag.parliament.nz/media/2025/school-lunches",
+        "Beehive, 'Smarter healthy school lunches programme serves up $130m in savings' and 'Free GP visits & prescriptions for under 13s': https://www.beehive.govt.nz/release/smarter-healthy-school-lunches-programme-serves-130m-savings",
+        "Child Poverty Action Group, school-lunch cuts and free-GP campaigns: https://www.cpag.org.nz/media-releases/cpag-calls-on-ministers-to-reverse-lunch-cuts-with-budget-bid",
+        "Health NZ / Te Whatu Ora, Zero fees for tamariki under 14 (~750,000 children; 96% practices opted in): https://info.health.nz/services-support/publicly-funded-health-and-disability-services/zero-fees-for-under-14s",
+        "Heckman, Moon et al., 'A New Cost-Benefit and Rate of Return Analysis for the Perry Preschool Program', NBER w16180 (7\u201310% return): http://jenni.uchicago.edu/papers/Heckman_Moon_etal_2010_NBER_wp16180.pdf"
+      ]
+    },
+    {
+      "lever": "Debt, fines & poverty traps: MSD debt/overpayment recovery reform, fines enforcement that doesn't strand the poor, and lower benefit/WfF abatement rates to cut effective marginal tax rates (EMTRs)",
+      "mechanism": "Three intertwined mechanisms keep low-income New Zealanders poor through the design of the system itself. (1) MSD debt: 621,541 people owed MSD $2.61bn at 31 March 2024, mostly overpayments ($1.26bn) and recoverable hardship assistance ($1.2bn), not fraud ($136m) (NZ Herald/CPAG). Because core benefits sit below the WEAG 'adequate participation' line (gap $92-$356/week; a single South Auckland renter needed $596 but got $423 - WEAG/driver brief), families borrow from MSD for bonds, rent and car repairs, then have repayments deducted from already-inadequate benefits, locking in a debt cycle. (2) Court fines and reparation: $122m+ of reparation was outstanding July-Feb 2025-26 (RNZ); unpaid fines trigger driver-licence stop orders and car seizures (236 cars seized, 120 clamped, 9 Jul 2025-21 Feb 2026 - RNZ), removing the ability to drive to work and deepening poverty. (3) High EMTRs: as earnings rise, benefit abatement + WfF abatement + Accommodation Supplement abatement + tax stack so that 30% of single-parent and 13% of couple-parent families face EMTRs over 50%, some families above 100% (Treasury AN 25/01). Reform reduces income lost to clawbacks, frees cash for essentials, and restores the work-pays incentive that currently traps people at low hours.",
+      "evidence": "See evidence field.",
+      "est_impact": "Modest-to-moderate on the hardship baseline (169,300 children in material hardship; 71,000 severe - per the driver brief). Targeted and high-yield for affected households but narrow relative to housing and benefit-adequacy levers. Capping/forgiving MSD debt and lowering deduction rates would put real cash back weekly into ~hundreds of thousands of the poorest, benefit-reliant households (MSD debtors number 621,541 - NZ Herald) and directly reduce material hardship for those families, since deductions come straight off below-adequacy incomes. Fines reform (ending licence stop orders/car seizures for the genuinely unable-to-pay) protects the ~thousands caught in enforcement annually from losing work access. Abatement-rate cuts would lift in-work incomes for the 30% of sole-parent families on 50%+ EMTRs, easing in-work poverty (50,000+ working households poor - driver brief). Plausibly low-single-digit-thousands to low-tens-of-thousands of children moved out of hardship if combined and done at scale; far smaller if done as the marginal threshold tweaks seen in Budget 2025. High uncertainty - no NZ RCT-grade estimate exists.",
+      "cost": "See cost field above.",
+      "tradeoffs": "(1) Fiscal vs incentive tension: cutting abatement rates lowers EMTRs but pushes transfers to higher-income families and costs more; tightening thresholds (as Budget 2025 did with Best Start income-testing from $79k) claws it back but reintroduces abatement traps elsewhere - you cannot cut EMTRs everywhere cheaply. (2) Moral-hazard/integrity framing: debt forgiveness and softer recovery face political resistance (the Govt's Feb 2026 move to reverse the High Court debt-wipe shows the appetite to keep recovering). (3) Fairness optics: writing off benefit debt while wage earners repay their own debts. (4) Fines reform must not look soft on genuine offending - design must distinguish inability-to-pay from won't-pay. (5) These reforms treat symptoms; without raising benefits to the WEAG-adequacy line, families keep borrowing and re-accruing debt.",
+      "who_benefits": "Benefit-reliant and recently-off-benefit households (406,128 on a main benefit at June 2025 - driver brief), disproportionately Maori, Pacific, sole-parent and disabled families who carry the most MSD debt and face the highest EMTRs (sole parents 30% over 50% EMTR - Treasury AN 25/01). Fines reform benefits low-income drivers at risk of losing licences and vehicles - again concentrated among Maori and the most-deprived NZDep2023 deciles. Sole-parent families gain most from abatement reform because they hit multiple overlapping abatements at low hours.",
+      "leverage": 6,
+      "sources": [
+        "NZ Herald, 'Cost of living: MSD owed billions as families spiral into crippling debt to government' (MSD owed $2.61bn at 31 Mar 2024; 621,541 debtors; overpayments $1.26bn, recoverable assistance $1.2bn, fraud $136m)",
+        "Child Poverty Action Group, 'Debt to MSD' (cpag.org.nz/statistics/debt-to-msd) and RNZ The Detail, 'The benefit system that holds the poor in poverty'",
+        "NZ Herald / RNZ, Feb 2026, Government legislates to reverse High Court ruling wiping debts for ~40,000 including abuse-in-care survivors (rnz.co.nz/news/political/587115)",
+        "RNZ, 'Clampdown on unpaid court fines returns more than $700k' ($122m+ reparation outstanding Jul-Feb 2025-26; 236 cars seized, 120 clamped; 9 Jul 2025-21 Feb 2026)",
+        "NZ Treasury Analytical Note AN 25/01, 'The Cost of Working More: Understanding Effective Marginal Tax Rates' (30% sole-parent & 13% couple-parent families EMTR>50%; some >100%; abatement stacking of benefit, WfF, Accommodation Supplement)",
+        "Beehive / Treasury Regulatory Impact Statement, Budget 2025: WfF abatement threshold $42,700->$44,900, abatement rate 27%->27.5%, ~142,000 families ~$14/fortnight, Best Start income-tested from $79k (effective 1 Apr 2026)",
+        "WEAG benchmark / driver brief: benefit-adequacy gap $92-$356/week; single South Auckland renter needed $596, received $423; 406,128 on main benefit June 2025",
+        "IMF & UK Parliament International Development Committee: HIPC/MDRI cancelled ~$130bn debt, poverty-reducing spend rose ~40% (sovereign-level analogue, indirect for household debt)",
+        "Ministry of Justice, Fines enforcement & driver licence stop orders (justice.govt.nz/fines); Community Law, driver licence stop orders for unpaid fines",
+        "Social Security Regulations 2018 reg 209, 'MSD must determine rate and methods of debt recovery' (legislation.govt.nz)"
+      ]
+    },
+    {
+      "lever": "Food & energy security: Winter Energy Payment, foodbank/Food Secure Communities funding, energy-hardship support, and warm-dry-home insulation (Warmer Kiwi Homes / Healthy Homes Initiative)",
+      "mechanism": "Two distinct logics sit under this lever. (1) Fast relief: the Winter Energy Payment (WEP) puts cash directly against winter power bills (1 May-1 Oct), and foodbanks/Food Secure Communities grants put food directly into hardship-stricken homes - both ease the \"material\" face of poverty (food and energy are two of the most-lacked DEP-17 essentials) without changing income adequacy. (2) Structural relief: insulation/heating retrofits (Warmer Kiwi Homes) and the Healthy Homes Initiative permanently cut the cost of keeping a home warm and dry, so the same benefit/wage income stretches further every winter and respiratory hospitalisations fall. Food and energy security is therefore mostly a SYMPTOM-relief lever - it reduces the depth and physical harm of hardship (the MEASC/MEASI material-hardship measures) far more than it moves the income-poverty lines (MEASA/MEASB), which are driven by benefit adequacy and housing costs.",
+      "evidence": "Split rating reflects a split lever: insulation/warm-dry-home programmes are genuinely high-leverage (8-9/10 on their own - proven 4.4x BCR, permanent, hits the most-deprived, cuts hospitalisations), while the WEP (2-3/10 - untargeted, eroding, mostly reaches pensioners) and foodbank funding (essential harm-reduction but ~3/10 as a poverty lever - treats the symptom, entrenches charity) drag the blended score down. Overall 5/10: fast, humane and physically real for material hardship and health, but it relieves symptoms rather than the income/housing engines that set the poverty baseline. The highest-value move is to rebalance within the lever - protect and scale Warmer Kiwi Homes and multi-year-fund food security, while targeting/indexing the WEP - not to expand untargeted cash.",
+      "est_impact": "Direct effect on the income-poverty baseline (210,600 children AHC / 169,300 in material hardship) is modest because these are symptom-relief tools, but the effect on the MATERIAL-HARDSHIP and severe-hardship counts - and on health - is real and measurable. Insulation/retrofit at scale is the standout: permanently warmer, drier homes cut a recurring winter cost and reduce the ~$38m/yr respiratory hospitalisation burden, lifting some households out of the \"going without heating\" item that defines DEP-17 hardship. Plausibly meaningful reductions in the depth of material hardship for the tens of thousands of homes retrofitted each year, concentrated on M\u0101ori/Pacific who bear the highest respiratory and energy-hardship rates. Food relief and the WEP keep large numbers of families from falling deeper (a genuine harm-reduction floor for food-insecurity affecting ~27% of children) but do not move the income lines - the WEP is poorly targeted (most $ flow to superannuitants, not the 169,300 hardship children) and food parcels treat the symptom. Honest uncertainty: no NZ study isolates the WEP's effect on child hardship; foodbank reliance is a coping mechanism, not a poverty exit.",
+      "tradeoffs": "WEP is the clearest efficiency problem: broadly ~$0.5b/yr (>1.1m recipients), untargeted by need, frozen nominally so its real value erodes - most spend reaches NZ Super households rather than the deepest child hardship; targeting/indexing it would free money for higher-leverage uses but is politically hard (pensioner backlash). Foodbank funding is a moral imperative for immediate relief but entrenches charity-as-substitute for adequate incomes and leaves providers on an annual \"fiscal cliff\" - poor for planning, and it normalises food charity rather than fixing the income/housing drivers. Insulation has the opposite profile: high upfront capital, delivery-capacity constrained (installer workforce, landlord cooperation for rentals where the worst-off live), and benefits accrue over years not weeks - but its 4.4x BCR makes it the rare measure that pays for itself. Risk across the lever: it can become a comfortable substitute for tackling the master drivers (housing costs, benefit adequacy) while leaving the income lines untouched.",
+      "who_benefits": "Insulation/Healthy Homes: low-income owner-occupiers and (where landlords participate) rental tenants in cold, damp homes - disproportionately M\u0101ori (25.1% child hardship), Pacific (31.0%) and Northland/high-deprivation regions with the worst respiratory burden. WEP: mostly NZ Superannuitants plus ~406,000 working-age beneficiaries - broad but shallow and not need-targeted. Foodbanks/Food Secure Communities: the deepest-hardship and food-insecure families (54.8% of Pacific children, 34.3% of M\u0101ori children in homes short of food), sole-parent and benefit-reliant households - the acute end.",
+      "leverage": 5,
+      "cost": "Mixed. WEP ~$0.5b/yr (approximate; >1.1m recipients at ~$450 single/$700 couple per season - exact appropriation not verified). Food Secure Communities ~$7m reprioritised for 1 year plus $38m/4yrs incl. KickStart breakfasts (MSD Budget 2026) - small relative to need. Warmer Kiwi Homes: capital-intensive per home but returns ~$4.40 per $1 (Motu/EECA), so net-positive over the asset life; scaling to clear the worst-housing backlog would run to hundreds of millions but largely self-funds via avoided health costs.",
+      "sources": [
+        "Stats NZ Child Poverty Reduction Act measures (child-poverty-nz MCP skill)",
+        "The Conversation, 'The Winter Energy Payment is buying less warmth each year', 26 May 2026",
+        "Motu Economic & Public Policy Research, Warmer Kiwis/Warmer Kiwi Homes evaluation, Working Papers 22-13 & 22-14 (Dec 2022), commissioned by EECA",
+        "EECA, Warmer Kiwi Homes Research and Evaluation; New Zealand household energy use report 2024-2025",
+        "MBIE, Defining energy hardship",
+        "MSD / Work and Income, Winter Energy Payment rates 2026 ($20.46 single / $31.82 couple-or-children) and recipient numbers",
+        "MSD, Food Secure Communities and Budget 2026 factsheets",
+        "The Salvation Army NZ, 'Ending Food Insecurity' report (Sept 2025) and Dec 2025 funding statement; Kore Hiakai Zero Hunger Collective; AFRA",
+        "RNZ, 'Foodbanks warn of closures if government fails to give ongoing funding'",
+        "The Spinoff, 'Emergency food grant decline rates up 60% in two years', 4 Mar 2026",
+        "NZ Herald / SunLive, prepay power disconnections ~10,000-11,000 homes/month (2025)",
+        "The Conversation / Scoop, 'Almost a third of NZ households face energy hardship', July 2025"
+      ]
+    }
+  ],
+  "synthesis": {
+    "title": "The Baseline We Built: Why Poverty Is New Zealand's Foundational Problem \u2014 And the Three Levers That Move It",
+    "subtitle": "169,300 children in material hardship and 210,600 below the after-housing-costs line. The numbers are rising, the targets are slipping, and housing has become the machine that turns low income into lived hardship. 31 May 2026.",
+    "executive_summary": [
+      "One in seven New Zealand children \u2014 169,300 (14.3%) \u2014 now live in material hardship, the highest count in a decade and the third consecutive annual rise from the 2022 low of 10.6%. On the anchored after-housing-costs income measure, 210,600 children (17.8%) fall below the line. The trend is upward, not stable.",
+      "Housing is the master driver. The same families are 42% poorer after rent and mortgages: 148,700 children are below the line before housing costs, but 210,600 after \u2014 meaning housing alone manufactures roughly 62,000 children's worth of poverty. On the broader 60% AHC line, the count balloons to 354,200. No income lever can outrun a housing system that re-creates poverty every quarter.",
+      "Income is inadequate by design. Main benefits sit $92\u2013$356/week below the government's own WEAG 'adequate participation' standard; Jobseeker for a single adult is $372.55/week from April 2026. With 406,128 working-age people on a main benefit and 5.3% CPI cumulative inflation in under two years, beneficiary status converts almost automatically into hardship.",
+      "Work has stopped guaranteeing an exit. Over 50,000 households are poor despite paid work (7% in-work poverty), and the 15\u201324 NEET rate has hit 14.4% \u2014 a near-nine-year high \u2014 with youth unemployment near triple the general rate, locking a cohort out at the start of working life.",
+      "Hardship is unevenly distributed by ethnicity and place. Pacific (31.0%) and M\u0101ori (25.1%) children suffer material hardship at roughly double the all-child rate; disabled-household children at 26.9%. Northland (19.5%) is more than double Otago (8.3%). 24.2% of M\u0101ori live in the most-deprived NZDep2023 decile.",
+      "Poverty is sticky and heritable. A low-income family has a ~65% chance of staying poor the next year; 697,000 New Zealanders (18%) were persistently disadvantaged across 2013\u20132018; someone on a benefit today can expect ~12 more years on one before 65.",
+      "The highest-leverage moves are clear and few: (1) make income support adequate and re-index it to wages, (2) build and allocate income-related-rent social housing at register scale, and (3) cap MSD debt and cut abatement traps. Services (school lunches, free GP, insulation) buffer hardship but do not move the income lines.",
+      "On current settings New Zealand will miss its legislated 2027/28 Child Poverty Reduction Act targets. The drift is the wrong way; only a combined income-plus-housing package of the scale seen in 2018\u20132022 can credibly reverse it."
+    ],
+    "baseline": "New Zealand's child-poverty baseline as at year-end June 2025 is the worst in a decade and still deteriorating. One in seven children \u2014 169,300, or 14.3% \u2014 live in material hardship, going without six or more of 17 basic essentials; that is up 10,500 on 2024, 47,500 above the 2022 low, and the third straight annual rise. A harder core of 71,000 children (6.0%) are in severe hardship, lacking nine or more essentials. On income, 148,700 children (12.6%) sit below 50% of median before housing costs, rising to 210,600 (17.8%) on the anchored after-housing-costs line. These are not noisy estimates around a flat trend \u2014 every headline measure is moving in the wrong direction.\n\nThe shape of poverty matters as much as its scale. It is concentrated, not diffuse. Pacific children face material hardship at 31.0% and M\u0101ori at 25.1% \u2014 roughly double the 11.5% European/P\u0101keh\u0101 rate \u2014 while children in disabled households sit at 26.9%. The severe-hardship gap is starker still: Pacific 14.9% and M\u0101ori 12.2% against European 4.7%, a 3.2x divide. Geography compounds ethnicity: Northland's 19.5% is more than double Otago's 8.3%, and 24.2% of all M\u0101ori live in the most-deprived NZDep2023 neighbourhood decile. Food insecurity now reaches 27% of children \u2014 54.8% of Pacific and 34.3% of M\u0101ori children live in homes not getting enough food \u2014 and roughly 30% of households face energy hardship.\n\nCrucially, this is a persistent state, not a transient one. A family on low income one year has a ~65% chance of remaining there the next; 697,000 New Zealanders (18%) were persistently disadvantaged across both 2013 and 2018; and a person on a benefit today can expect about 12 more years on one before age 65. Childhood hardship is therefore being converted into lifelong, heritable disadvantage \u2014 which is precisely why poverty, rather than any single downstream symptom, is the right baseline challenge to name.",
+    "verdict": "The honest verdict is that New Zealand has built a poverty baseline and is now maintaining it. Two structural choices do most of the work. First, core incomes are set below adequacy by design \u2014 the WEAG gap of $92\u2013$356/week is not an accident of indexation drift but a policy setting \u2014 so that 406,128 working-age beneficiaries and their children are placed in near-automatic hardship before any other factor applies. Second, the housing system then takes those low incomes and amplifies the damage: rent and mortgages alone push some 62,000 additional children below the line, a 42% enlargement of the child-poverty population created by housing costs alone. The Accommodation Supplement pours roughly $85m a week into the gap but largely passes through to landlords rather than lifting families clear. The result is a baseline that reproduces itself every quarter regardless of goodwill or marginal tweaks.\n\nWhat makes this baseline so resistant is the interaction of the drivers, not any one of them. Inadequate income and unaffordable housing multiply each other; both then concentrate by ethnicity, disability and postcode; and the combination hardens into persistence and intergenerational transmission. This is why symptom-relief tools \u2014 food parcels, the Winter Energy Payment, even school lunches \u2014 buffer suffering without bending the curve: they treat the wound while the two machines that produce it keep running. The 2025 data confirm the mechanism: hardship is rising even as wages have technically recovered against inflation, because the binding constraints are benefit adequacy and housing cost, not wage growth alone.\n\nThe encouraging counter-fact is that the baseline is movable, and recently was moved. Between 2018 and 2022 a deliberate package of benefit and Working for Families increases shifted the anchored AHC child rate by roughly 8 percentage points \u2014 about 85,000 children \u2014 within four years. That is the proof of concept. The current upward drift is therefore a reversal of a known-good trajectory, not evidence that the problem is intractable. The question is not whether poverty can be cut but whether the political settings will be turned back toward income adequacy and social-housing supply at scale, or left to drift while the symptom-relief budget grows.",
+    "ranked_drivers": [
+      {
+        "driver": "Housing costs \u2014 the master driver",
+        "why": "The single largest manufacturer of poverty. The same children are 42% poorer after housing: 148,700 below the line BHC versus 210,600 AHC, meaning rent and mortgages alone push ~62,000 extra children into poverty (+5.2pp). On the 60% AHC line the count reaches 354,200. With one in three low-income households spending 40%+ of income on shelter, a ~19,431-household public register, and ~$85m/week of Accommodation Supplement leaking to landlords, housing converts low income into lived hardship more reliably than any other factor \u2014 and caps how far any income lever can reach."
+      },
+      {
+        "driver": "Income adequacy \u2014 benefits, wages and Working for Families",
+        "why": "The root cause that housing then amplifies. Main benefits sit $92\u2013$356/week below the government's own WEAG adequacy standard, so beneficiary status (406,128 working-age people, 12.5%) means near-automatic hardship before housing is even paid. Cumulative inflation of 5.3% in under two years erodes fixed incomes further. This is the upstream tap; close it and every downstream measure improves."
+      },
+      {
+        "driver": "Place, region and ethnic inequity",
+        "why": "Determines who bears the burden and how hard. Pacific (31.0%) and M\u0101ori (25.1%) child hardship runs at double the national rate, disabled-household children at 26.9%, with a 3.2x severe-hardship gap and a 2.3x regional spread (Northland 19.5% vs Otago 8.3%). 24.2% of M\u0101ori live in the bottom NZDep decile. This is not a separate cause so much as the concentration mechanism that turns averages into entrenched, place-locked disadvantage."
+      },
+      {
+        "driver": "Persistent and intergenerational poverty",
+        "why": "Converts a snapshot into a life sentence. ~65% year-to-year persistence, 697,000 people (18%) persistently disadvantaged 2013\u20132018, ~12 expected further years on benefit, and disabled children at 26.9% hardship. This is what makes the baseline self-reproducing and is the strongest argument for acting on the structural drivers now rather than relying on annual symptom relief."
+      },
+      {
+        "driver": "Material hardship, food and energy",
+        "why": "Poverty made physical and the clearest evidence the system is worsening: 169,300 children in hardship (third annual rise), 71,000 severe, 27% in food-insecure homes, Salvation Army parcels up 7% on 2024 and ~50% on 2019, ~30% in energy hardship. Largely a consequence of the drivers above, but it is the lived edge where the baseline is felt and measured."
+      },
+      {
+        "driver": "Work, youth and in-work poverty",
+        "why": "Shows the traditional exit route is failing. 50,000+ working households are poor (7% in-work poverty) and youth NEET has hit 14.4% with youth unemployment near triple the 5.3% general rate. Important and worsening, but ranked lower because the deepest hardship is concentrated in non-working, sole-parent and benefit-reliant households that work-based levers structurally under-reach."
+      }
+    ],
+    "theory_of_change": [
+      {
+        "move": "Make core income support adequate and re-index it to wages: lift main-benefit and Working for Families base rates toward the WEAG adequacy standard, restore wage-indexation, and unfreeze/raise WFF abatement thresholds.",
+        "rationale": "Inadequate income is the upstream tap and the only lever that moves the poverty line next quarter rather than next decade. The 2018\u20132022 package proved a benefit-plus-WFF increase can shift the anchored AHC child rate ~8pp (~85,000 children). Wage-indexation is the highest-leverage sub-component: near-costless to legislate and the difference between a permanent gain and one that erodes within a few years.",
+        "impact": "Tens of thousands of children pulled back below the AHC line and a reversal of the current upward drift, with hardship effects lagging income effects by 1\u20132 years as sticky costs (housing, energy, debt) catch up. Capped by housing costs, which is why it must be paired with the housing lever."
+      },
+      {
+        "move": "Build and allocate income-related-rent social housing at register scale: expand K\u0101inga Ora and Community Housing Provider IRR stock, clear the ~19,431-household register, modernise the frozen Accommodation Supplement maxima, and scale Housing First.",
+        "rationale": "Housing is the highest-ceiling lever because it attacks the +62,000-children gap directly: every household moved from market rent to IRR housing reliably exits AHC poverty. It is the only lever capable of structurally cutting both the 210,600 AHC count and the 169,300 hardship count at the source rather than masking them.",
+        "impact": "On the order of 20,000\u201340,000 children lifted clear of AHC poverty as register households are housed, plus immediate partial relief for a slice of recipient households from un-freezing AS maxima. Back-loaded: the current ~4,000\u20135,000-home pipeline is only a fifth to a quarter of the register, so impact scales over years, not quarters."
+      },
+      {
+        "move": "Cut the poverty traps: cap or forgive MSD debt, lower benefit deduction rates, end fines enforcement that strands the poor (licence stop-orders, car seizures), and lower abatement rates to cut effective marginal tax rates.",
+        "rationale": "High-yield and fast for the very poorest. MSD debtors number 621,541 and deductions come straight off below-adequacy incomes; cutting them puts real cash back weekly without new transfer architecture. Lower abatement rates ease the 30% of sole-parent families facing 50%+ EMTRs, the core of in-work poverty.",
+        "impact": "Low-single-digit-thousands to low-tens-of-thousands of children moved out of hardship if combined and done at scale; far smaller if delivered as marginal threshold tweaks. A force-multiplier on the income-adequacy lever, concentrated on the deepest, benefit-reliant hardship."
+      },
+      {
+        "move": "Hold a hardship-buffering floor while the structural levers ramp: scale warm-dry-home insulation (Warmer Kiwi Homes / Healthy Homes), retain Ka Ora Ka Ako school lunches and free under-14 GP visits, and better-target food and energy support.",
+        "rationale": "These do not move the income lines by construction, but they reduce the depth of material hardship on the specific DEP-17 items (heating, food, health) and protect child outcomes during the multi-year lag before housing and income changes land. Insulation is the standout: it permanently removes a recurring winter cost and cuts the ~$38m/yr respiratory hospitalisation burden, concentrated on the M\u0101ori/Pacific households bearing the highest energy-hardship rates.",
+        "impact": "Meaningful reductions in the depth and lived severity of hardship for households reached \u2014 and durable health and child-development returns \u2014 but small movement on the headline 169,300 hardship count and zero on the income lines. A complement to, never a substitute for, the income and housing levers."
+      }
+    ],
+    "targets_note": "New Zealand's Child Poverty Reduction Act 2018 sets three legislated 10-year targets to 2027/28: cut the before-housing-costs rate (BHC<50%, MEASA) to 5%, the after-housing-costs rate (AHC<50%, MEASB) to 10%, and material hardship (DEP-17, MEASC) to 6%. The June 2025 baseline sits at 12.6% BHC, 17.8% AHC and 14.3% hardship \u2014 wide of all three, and on the wrong trajectory: material hardship has risen three years running and is now more than double its 6% target, while BHC and AHC are roughly 2.5x and 1.8x their respective targets. The interim 2023/24 targets have effectively been missed, and on current settings the 2027/28 statutory targets are out of reach. Hitting even the AHC and hardship targets would require a deliberate income-plus-housing package at least the scale of the 2018\u20132022 episode (which delivered ~8pp on the anchored AHC measure), started now, because the housing lever's multi-year build lag means stock commissioned in 2026 only reaches families well before \u2014 not after \u2014 the 2027/28 deadline if it is to count.",
+    "tensions": [
+      "Speed versus structure: income transfers move the poverty line next quarter but can erode without indexation; social-housing supply is the highest-ceiling fix but is back-loaded over many years. Relying on either alone fails \u2014 the package must do both at once and accept different time horizons.",
+      "Accommodation Supplement leakage: un-freezing AS maxima (frozen on 2016 rents) gives immediate relief to ~364,000\u2013770,000 recipient households, but much of it passes through to landlords as higher rents. It buys time but can entrench the very market-rent dependence that IRR housing is meant to replace.",
+      "Universal symptom-relief versus targeted poverty exit: the Winter Energy Payment is poorly targeted \u2014 most dollars flow to superannuitants, not the 169,300 hardship children \u2014 and food parcels are a coping mechanism, not an exit. Generous, visible symptom relief can absorb budget that would move the baseline further if directed at income adequacy or IRR supply.",
+      "Work incentives versus adequacy: the deepest hardship is concentrated in non-working, sole-parent, Pacific, M\u0101ori and disabled households that work-based levers (IWTC, FamilyBoost) structurally under-reach (~40% of hardship children are IWTC-ineligible). Designing transfers that are both adequate and preserve work incentives is the central WFF/abatement trade-off \u2014 and abatement cuts cost money precisely where EMTRs bite.",
+      "Fiscal cost versus the cost of inaction: a serious adequacy-plus-housing package is expensive up front, but persistent and intergenerational poverty (~12 further benefit-years per recipient, 18% persistently disadvantaged) compounds future fiscal and health costs. The cheap option in any single Budget is the expensive option across a generation.",
+      "Counting effects versus real effects: free school lunches, GP visits and insulation deliver real wellbeing and reduce hardship depth, yet by construction move none of the income-poverty headline numbers. There is a standing risk of optimising for what the statutory measures count rather than for what reduces child suffering \u2014 and an opposite risk of dismissing genuine hardship-buffering because it does not show in MEASA/MEASB."
+    ]
+  }
+}
