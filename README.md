@@ -1,5 +1,7 @@
 # The Baseline We Built — Poverty in Aotearoa New Zealand
 
+> ⚠️ **This is an experiment.** This report is a **proof-of-concept** in AI-assisted, automated data analysis and report generation. It was produced rapidly by an AI multi-agent pipeline and has **not been peer-reviewed or verified by subject-matter experts**. Treat it as a demonstration of the tooling — **not an authoritative source** on New Zealand poverty. Always check figures against the original Stats NZ and other official sources before relying on them.
+
 **An independent, data-driven report on poverty as New Zealand's foundational challenge — the drivers, what works, and the highest-leverage path to solving it.**
 
 Produced by [thecolab.ai](https://thecolab.ai) · point-in-time as at 31 May 2026.
@@ -45,7 +47,7 @@ The official Child Poverty Reduction Act measures use the codes `MEASA`–`MEASJ
 
 ## Notes
 
-- This is **independent analysis**, not financial, policy, or legal advice, and is not affiliated with or endorsed by any political party or government agency.
+- This is an **experimental proof-of-concept** and **independent analysis** — not peer-reviewed, and not financial, policy, or legal advice. It is not affiliated with or endorsed by any political party or government agency.
 - Estimates carry sampling error; the report surfaces confidence intervals alongside point estimates.
 - Figures are a point-in-time snapshot (year ended June 2025 for child-poverty measures; 31 May 2026 for macro context).
 
